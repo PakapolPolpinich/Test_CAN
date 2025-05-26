@@ -1,0 +1,10 @@
+11:15:05 **** Incremental Build of configuration Debug for project Extend_NodeB ****
+make -j16 all 
+arm-none-eabi-size  Extend_NodeB.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26096	     24	   1904	  28024	   6d78	Extend_NodeB.elf
+Finished building: default.size.stdout
+ 
+
+11:15:05 Build Finished. 0 errors, 0 warnings. (took 217ms)
+

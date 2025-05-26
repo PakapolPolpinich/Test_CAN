@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Extend_NodeB/Standard_NodeA.ioc&apos; to &apos;Extend_NodeB.ioc&apos;" description="Rename resource &apos;Standard_NodeA.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Standard_NodeA.ioc" name="Extend_NodeB.ioc" stamp="1748136774666" updateReferences="true"/>
+</session>

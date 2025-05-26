@@ -1,0 +1,17 @@
+20:21:44 **** Incremental Build of configuration Debug for project Three_NODE_B ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H503xx -c -I../Core/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Three_NODE_B.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\Three_NODE_B\STM32H503RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Three_NODE_B.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Three_NODE_B.elf
+ 
+arm-none-eabi-size  Three_NODE_B.elf 
+arm-none-eabi-objdump -h -S Three_NODE_B.elf  > "Three_NODE_B.list"
+   text	   data	    bss	    dec	    hex	filename
+  26336	     12	   1908	  28256	   6e60	Three_NODE_B.elf
+Finished building: default.size.stdout
+ 
+Finished building: Three_NODE_B.list
+ 
+
+20:21:45 Build Finished. 0 errors, 0 warnings. (took 1s.103ms)
+
