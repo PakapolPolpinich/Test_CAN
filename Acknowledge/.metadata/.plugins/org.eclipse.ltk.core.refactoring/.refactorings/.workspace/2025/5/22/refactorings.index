@@ -1,3 +1,8 @@
 1748146370881	Rename resource 'Extend_NodeB'
 1748146383547	Rename resource 'Ack'
 1748146411831	Delete resource 'Ackk'
+1748225559495	Delete resource 'Ack_NODEB/Debug/Ack.elf'
+1748225568347	Delete 2 resources
+1748225573038	Delete resource 'Ack_NODEB/Ack Debug.launch'
+1748226074739	Delete resource 'Ack_NODEB'
+1748241424429	Delete resource 'fsf'

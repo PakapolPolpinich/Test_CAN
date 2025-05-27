@@ -1,17 +1,22 @@
 /* Includes ------------------------------------------------------------------*/
 #include "main.h"
+#include <stdio.h>
 
-#define NODE_B
+#define NODE_A
 
 FDCAN_HandleTypeDef hfdcan1;
-
+UART_HandleTypeDef huart3;
 /* Private function prototypes -----------------------------------------------*/
 static void MX_FDCAN1_Init(void);
 void SetFilter(uint16_t ID ,uint16_t msk);
 void Test_Priority();
 void TX_Send_CAN();
-
-volatile uint8_t Counter = 0;
+void Print_CAN_Error();
+void Check_CAN_ErrorCnt();
+void Check_CAN_Protocol_Status();
+/* declared variable -----------------------------------------------*/
+volatile uint8_t counter = 0;
+volatile uint8_t flag = 0;
 typedef struct{
 	FDCAN_TxHeaderTypeDef   TxHeader;
 	FDCAN_RxHeaderTypeDef   RxHeader;
@@ -22,20 +27,12 @@ typedef struct{
 
 CAN_SET CAN_Payload;
 
-#ifdef NODE_A
-	uint16_t address[] = {0x000,0x001};
-#endif
-
-#ifdef NODE_B
-	uint32_t address[] = {0x00000000,0x0000A0A,0x00040000};
-#endif
+/* Start -----------------------------------------------*/
 
 int main(void)
 {
   /* MCU Configuration--------------------------------------------------------*/
-
-  /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
-  HAL_Init();
+   HAL_Init();
   /* Configure the system clock */
   SystemClock_Config();
   /* Initialize all configured peripherals */
@@ -44,22 +41,19 @@ int main(void)
   MX_USART3_UART_Init();
 
   CAN_Payload.dataTx[0] = 0x0;
-  /* Infinite loop */
-  /* USER CODE BEGIN WHILE */
+
   while (1)
   {
-    /* USER CODE END WHILE */
-
-    /* USER CODE BEGIN 3 */
+	  if (flag == 1){
+		  HAL_Delay(1);
+		  Print_CAN_Error();
+		  Check_CAN_ErrorCnt();
+		  Check_CAN_Protocol_Status();
+		  flag = 0;
+	  }
   }
-  /* USER CODE END 3 */
 }
 
-/**
-  * @brief FDCAN1 Initialization Function
-  * @param None
-  * @retval None
-  */
 static void MX_FDCAN1_Init(void)
 {
 
@@ -85,7 +79,7 @@ static void MX_FDCAN1_Init(void)
   hfdcan1.Init.DataSyncJumpWidth = 1;
   hfdcan1.Init.DataTimeSeg1 = 1;
   hfdcan1.Init.DataTimeSeg2 = 1;
-  hfdcan1.Init.StdFiltersNbr = 0;
+  hfdcan1.Init.StdFiltersNbr = 1;
   hfdcan1.Init.ExtFiltersNbr = 0;
   hfdcan1.Init.TxFifoQueueMode = FDCAN_TX_FIFO_OPERATION;
   if (HAL_FDCAN_Init(&hfdcan1) != HAL_OK)
@@ -105,50 +99,16 @@ static void MX_FDCAN1_Init(void)
   /* USER CODE END FDCAN1_Init 2 */
 }
 
-
-
-/* USER CODE BEGIN 4 */
-void SetFilter(uint16_t ID ,uint16_t msk){
-	FDCAN_FilterTypeDef sFilterConfig;
-
-	sFilterConfig.IdType = FDCAN_STANDARD_ID;
-	sFilterConfig.FilterIndex = 0;
-	sFilterConfig.FilterType = FDCAN_FILTER_MASK;
-	sFilterConfig.FilterConfig = FDCAN_FILTER_TO_RXFIFO0;
-	sFilterConfig.FilterID1 = ID;
-	sFilterConfig.FilterID2 = msk;
-	if (HAL_FDCAN_ConfigFilter(&hfdcan1, &sFilterConfig) != HAL_OK)
-	{
-	  /* Filter configuration Error */
-	  Error_Handler();
-	}
+void Test_Ack(){
+	CAN_Payload.msgID = 0x1AA;
+	TX_Send_CAN();
 }
-
-
-
-void Test_Priority(){
-
-	#ifdef NODE_A
-		CAN_Payload.msgID = address[Counter];
-		CAN_Payload.TxHeader.IdType = FDCAN_STANDARD_ID;
-		//SetFilter(0x10,0x0);
-	#endif
-
-	#ifdef NODE_B
-		CAN_Payload.msgID = address[Counter];
-		CAN_Payload.TxHeader.IdType = FDCAN_EXTENDED_ID;
-		//SetFilter(0x11,0x0);
-	#endif
-
-
-
-}
-
 
 
 void TX_Send_CAN(){
 
     /* ----- Prepare CAN data --------------------------------------- */
+    CAN_Payload.TxHeader.IdType = FDCAN_STANDARD_ID;
     CAN_Payload.TxHeader.Identifier = CAN_Payload.msgID; //CAN_Payload.msgID
     CAN_Payload.TxHeader.TxFrameType = FDCAN_DATA_FRAME;
     CAN_Payload.TxHeader.DataLength = FDCAN_DLC_BYTES_1;        // 8-byte payloaD
@@ -162,22 +122,29 @@ void TX_Send_CAN(){
 
     if (HAL_FDCAN_AddMessageToTxFifoQ(&hfdcan1, &CAN_Payload.TxHeader,CAN_Payload.dataTx)!= HAL_OK)
     {
-    	Error_Handler();
+      /*do not thing */
     }
+
 }
 
 void HAL_GPIO_EXTI_Falling_Callback(uint16_t GPIO_Pin){
 
 	if(GPIO_Pin == GPIO_PIN_5) {
-		Test_Priority();
-		TX_Send_CAN();
-
+#ifdef NODE_A
+		Test_Ack();
+		flag = 1;
+#endif
 	}
+  
 	if(GPIO_Pin == B1_BLUE_USER_BUTTON_Pin){
-		Counter++;
-		if (Counter >= sizeof(address)/sizeof(address[0])){
-			Counter = 0;
-		}
+#ifdef NODE_B
+			if (counter == 1){
+		  //SetFilter(0x1BC,0x7FF);
+			}else{
+			//SetFilter(0xAAA,0x000);
+			}
+			counter ^= 1;
+#endif
 	}
 }
 
@@ -202,6 +169,67 @@ void HAL_FDCAN_RxFifo0Callback(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo0ITs)
 	}
 }
 
+void Print_CAN_Error(void) {
+    uint32_t lec = (FDCAN1->PSR) & 0x7; /*Last error code*/
+
+    switch (lec) {
+        case 0b000:
+            printf("No CAN error occurred\r\n");
+            break;
+        case 0b001:
+            printf("Stuff error\r\n");
+            break;
+        case 0b010:
+            printf("Form error\r\n");
+            break;
+        case 0b011:
+            printf("Ack error\r\n");
+            break;
+        case 0b100:
+            printf("Bit error ->Bit1 error:\r\n");
+            break;
+        case 0b101:
+            printf("Bit error ->Bit0 error\r\n");
+            break;
+        case 0b110:
+            printf("CRC error: CRC mismatch on received frame\r\n");
+            break;
+        case 0b111:
+            printf("LEC unchanged: No event since last read\r\n"); /*When read lec it reset to 111*/
+            break;
+    }
+}
+
+void Check_CAN_ErrorCnt(void) {
+
+    uint8_t TEC = FDCAN1->ECR & 0xFF;         /*Transmit Error Counter: bits [7:0]*/
+    uint8_t REC = (FDCAN1->ECR >> 8) & 0x7F;  /* Receive Error Counter: bits [14:8]*/
+
+    printf("Transmit Error Counter (TEC): %d\r\n", TEC);
+    printf("Receive Error Counter (REC) : %d\r\n", REC); /*max 0-127*/
+  
+}
+
+void Check_CAN_Protocol_Status(void){
+  /*Bus-Off check*/
+  if (FDCAN1->PSR & FDCAN_PSR_BO) {
+        printf("CAN Status: BUS-OFF\r\n\n");
+  }
+  // Error Passive check
+  else if (FDCAN1->PSR & FDCAN_PSR_EP) {
+      printf("CAN Status: ERROR PASSIVE\r\n\n");
+  }
+  // Active mode 
+  else {
+      printf("CAN Status: ERROR ACTIVE\r\n\n");
+  }
+}
+
+int __io_putchar(int ch)
+{
+    HAL_UART_Transmit(&huart3, (uint8_t*)&ch, 1,1000);
+    return ch;
+}
 /* USER CODE END 4 */
 
 

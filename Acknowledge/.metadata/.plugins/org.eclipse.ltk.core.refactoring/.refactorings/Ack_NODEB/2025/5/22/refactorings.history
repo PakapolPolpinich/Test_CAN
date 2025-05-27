@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;Ack_NODEB/Ack.ioc&apos; to &apos;Ack_NODEB.ioc&apos;" description="Rename resource &apos;Ack.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Ack.ioc" name="Ack_NODEB.ioc" stamp="1748225382700" updateReferences="false"/>&#x0A;<refactoring comment="Rename resource &apos;Ack_NodeB/Ack.ioc&apos; to &apos;Ack_NodeB.ioc&apos;" description="Rename resource &apos;Ack.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Ack.ioc" name="Ack_NodeB.ioc" stamp="1748243114857" updateReferences="false"/>
+</session>
