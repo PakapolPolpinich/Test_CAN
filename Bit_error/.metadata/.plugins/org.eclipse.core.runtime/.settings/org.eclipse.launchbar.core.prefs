@@ -1,0 +1,12 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Testmeasure Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:testBaud800 Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:NodeB Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:w_NodeB Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:noisegen Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:E_NodeA Debug
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:E_NodeA\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:NodeA\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:NodeA\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:NodeB\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Testmeasure\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:TimerNodeA\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:testBaud800\ Debug/activeLaunchMode=run

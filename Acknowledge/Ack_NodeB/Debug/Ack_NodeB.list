@@ -37,15 +37,15 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   CONTENTS, READONLY, DEBUGGING, OCTETS
  16 .debug_macro  000201e9  00000000  00000000  0001d5b5  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_line   00010d12  00000000  00000000  0003d79e  2**0
+ 17 .debug_line   00010d10  00000000  00000000  0003d79e  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    000c675e  00000000  00000000  0004e4b0  2**0
+ 18 .debug_str    000c675e  00000000  00000000  0004e4ae  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000043  00000000  00000000  00114c0e  2**0
+ 19 .comment      00000043  00000000  00000000  00114c0c  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  00003270  00000000  00000000  00114c54  2**2
+ 20 .debug_frame  00003270  00000000  00000000  00114c50  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_line_str 00000075  00000000  00000000  00117ec4  2**0
+ 21 .debug_line_str 00000075  00000000  00000000  00117ec0  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -873,9 +873,9 @@ void HAL_GPIO_EXTI_Falling_Callback(uint16_t GPIO_Pin){
  80008b8:	af00      	add	r7, sp, #0
  80008ba:	4603      	mov	r3, r0
  80008bc:	80fb      	strh	r3, [r7, #6]
-		Print_CAN_Error();
-		Print_CAN_ErrCounter();
-		//Print_CAN_NodeStatus();
+	if(GPIO_Pin == GPIO_PIN_5) {
+	#ifdef NODE_A
+		Test_Ack();
 	#endif
 	}
 	if(GPIO_Pin == B1_BLUE_USER_BUTTON_Pin){
@@ -890,7 +890,6 @@ void HAL_GPIO_EXTI_Falling_Callback(uint16_t GPIO_Pin){
  80008ca:	b2db      	uxtb	r3, r3
  80008cc:	2b01      	cmp	r3, #1
  80008ce:	d10d      	bne.n	80008ec <HAL_GPIO_EXTI_Falling_Callback+0x38>
-		//		SetFilter(0x1BC,0x7FF);
 			FDCAN1->CCCR |= FDCAN_CCCR_INIT;
  80008d0:	4b15      	ldr	r3, [pc, #84]	@ (8000928 <HAL_GPIO_EXTI_Falling_Callback+0x74>)
  80008d2:	699b      	ldr	r3, [r3, #24]
@@ -906,7 +905,6 @@ void HAL_GPIO_EXTI_Falling_Callback(uint16_t GPIO_Pin){
  80008e8:	d0f9      	beq.n	80008de <HAL_GPIO_EXTI_Falling_Callback+0x2a>
  80008ea:	e00c      	b.n	8000906 <HAL_GPIO_EXTI_Falling_Callback+0x52>
 			}else{
-			//	SetFilter(0xAAA,0x000);
 			FDCAN1->CCCR &= ~FDCAN_CCCR_INIT;
  80008ec:	4b0e      	ldr	r3, [pc, #56]	@ (8000928 <HAL_GPIO_EXTI_Falling_Callback+0x74>)
  80008ee:	699b      	ldr	r3, [r3, #24]

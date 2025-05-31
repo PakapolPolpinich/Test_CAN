@@ -1,0 +1,55 @@
+/*
+ * Timer.c
+ *
+ *  Created on: May 28, 2025
+ *      Author: Admin
+ */
+
+#include "Timer.h"
+
+void Timer2_init(){
+	RCC->APB1LENR |= RCC_APB1LENR_TIM2EN;
+
+
+	 TIM2->PSC = 999;
+	 TIM2->ARR = 9999;
+
+	 // Enable update interrupt
+	 TIM2->DIER |= TIM_DIER_UIE;
+
+	 // Enable TIM16
+	// TIM2->CR1 |= TIM_CR1_CEN;
+	 TIM2->CR1 &= ~TIM_CR1_CEN;
+
+	 NVIC_EnableIRQ(TIM2_IRQn);
+	 NVIC_SetPriority(TIM2_IRQn,1);
+
+}
+
+void TIM2_IRQHandler(void) {
+    if (TIM2->SR & TIM_SR_UIF) {
+        TIM2->SR &= ~TIM_SR_UIF;
+
+        TIM2->CNT = 0;
+        TIM2->CR1 &= ~TIM_CR1_CEN; // Stop timer
+    }
+}
+
+//void Timer6_init(){
+//
+//	 RCC->APB1ENR1 |= RCC_APB1ENR1_TIM6EN;
+//
+//
+//	 TIM6->PSC = 19999;
+//	 TIM6->ARR = 14999;
+//
+//	 // Enable update interrupt
+//	 TIM6->DIER |= TIM_DIER_UIE;
+//
+//	 // Enable TIM16
+//	 //TIM6->CR1 |= TIM_CR1_CEN;
+//	 TIM6->CR1 &= ~TIM_CR1_CEN;
+//
+//	 NVIC_EnableIRQ(TIM6_DAC_IRQn);
+//	 NVIC_SetPriority(TIM6_DAC_IRQn,3);
+//}

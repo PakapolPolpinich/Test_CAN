@@ -1,14 +1,305 @@
-10:25:46 **** Incremental Build of configuration Debug for project Ack2 ****
+13:26:40 **** Incremental Build of configuration Debug for project Ack ****
 make -j16 all 
 arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H503xx -c -I../Core/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "Ack2.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Acknowledge\Ack2\STM32H503RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ack2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Ack2.elf
+arm-none-eabi-gcc -o "Ack.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Acknowledge\Ack\STM32H503RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ack.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ack.elf
  
-arm-none-eabi-size  Ack2.elf 
-arm-none-eabi-objdump -h -S Ack2.elf  > "Ack2.list"
+arm-none-eabi-size  Ack.elf 
+arm-none-eabi-objdump -h -S Ack.elf  > "Ack.list"
    text	   data	    bss	    dec	    hex	filename
-  30696	    104	   2240	  33040	   8110	Ack2.elf
+  31300	    104	   2240	  33644	   836c	Ack.elf
 Finished building: default.size.stdout
  
-Finished building: Ack2.list
+Finished building: Ack.list
+ 
+13:26:55 **** Incremental Build of configuration Debug for project Ack ****
+make -j16 all 
+arm-none-eabi-size  Ack.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31300	    104	   2240	  33644	   836c	Ack.elf
+Finished building: default.size.stdout
+ 
+13:27:16 **** Incremental Build of configuration Debug for project Ack ****
+make -j16 all 
+arm-none-eabi-size  Ack.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31300	    104	   2240	  33644	   836c	Ack.elf
+Finished building: default.size.stdout
+ 
+13:28:15 **** Incremental Build of configuration Debug for project Ack ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H503xx -c -I../Core/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ack.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Acknowledge\Ack\STM32H503RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ack.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ack.elf
+ 
+arm-none-eabi-size  Ack.elf 
+arm-none-eabi-objdump -h -S Ack.elf  > "Ack.list"
+   text	   data	    bss	    dec	    hex	filename
+  31312	    104	   2240	  33656	   8378	Ack.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ack.list
+ 
+13:29:46 **** Incremental Build of configuration Debug for project Ack ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H503xx -c -I../Core/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:66:13: error: invalid storage class for function 'MX_FDCAN1_Init'
+   66 | static void MX_FDCAN1_Init(void)
+      |             ^~~~~~~~~~~~~~
+../Core/Src/main.c:272:1: error: expected declaration or statement at end of input
+  272 | }
+      | ^
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:10:13: warning: 'MX_FDCAN1_Init' used but never defined
+   10 | static void MX_FDCAN1_Init(void);
+      |             ^~~~~~~~~~~~~~
+../Core/Src/main.c:263:6: warning: 'Error_Handler' defined but not used [-Wunused-function]
+  263 | void Error_Handler(void)
+      |      ^~~~~~~~~~~~~
+../Core/Src/main.c:244:6: warning: 'HAL_FDCAN_TxBufferCompleteCallback' defined but not used [-Wunused-function]
+  244 | void HAL_FDCAN_TxBufferCompleteCallback(FDCAN_HandleTypeDef *hfdcan, uint32_t BufferIndexes)
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:238:5: warning: '__io_putchar' defined but not used [-Wunused-function]
+  238 | int __io_putchar(int ch)
+      |     ^~~~~~~~~~~~
+../Core/Src/main.c:223:6: warning: 'Check_CAN_Protocol_Status' defined but not used [-Wunused-function]
+  223 | void Check_CAN_Protocol_Status(void){
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:213:6: warning: 'Check_CAN_ErrorCnt' defined but not used [-Wunused-function]
+  213 | void Check_CAN_ErrorCnt(void) {
+      |      ^~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:182:6: warning: 'Print_CAN_Error' defined but not used [-Wunused-function]
+  182 | void Print_CAN_Error(void) {
+      |      ^~~~~~~~~~~~~~~
+../Core/Src/main.c:161:6: warning: 'HAL_FDCAN_RxFifo0Callback' defined but not used [-Wunused-function]
+  161 | void HAL_FDCAN_RxFifo0Callback(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo0ITs)
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:140:6: warning: 'HAL_GPIO_EXTI_Falling_Callback' defined but not used [-Wunused-function]
+  140 | void HAL_GPIO_EXTI_Falling_Callback(uint16_t GPIO_Pin){
+      |      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Core/Src/main.c:118:6: warning: 'TX_Send_CAN' defined but not used [-Wunused-function]
+  118 | void TX_Send_CAN(){
+      |      ^~~~~~~~~~~
+../Core/Src/main.c:66:13: warning: 'MX_FDCAN1_Init' defined but not used [-Wunused-function]
+   66 | static void MX_FDCAN1_Init(void)
+      |             ^~~~~~~~~~~~~~
+make: *** [Core/Src/subdir.mk:43: Core/Src/main.o] Error 1
+"make -j16 all" terminated with exit code 2. Build might be incomplete.
+13:30:08 **** Incremental Build of configuration Debug for project Ack ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H503xx -c -I../Core/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ack.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Acknowledge\Ack\STM32H503RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ack.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ack.elf
+ 
+arm-none-eabi-size  Ack.elf 
+arm-none-eabi-objdump -h -S Ack.elf  > "Ack.list"
+   text	   data	    bss	    dec	    hex	filename
+  31388	    104	   2240	  33732	   83c4	Ack.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ack.list
+ 
+13:36:38 **** Incremental Build of configuration Debug for project Ack ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H503xx -c -I../Core/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ack.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Acknowledge\Ack\STM32H503RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ack.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ack.elf
+ 
+arm-none-eabi-size  Ack.elf 
+arm-none-eabi-objdump -h -S Ack.elf  > "Ack.list"
+   text	   data	    bss	    dec	    hex	filename
+  31272	    104	   2240	  33616	   8350	Ack.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ack.list
+ 
+16:29:44 **** Incremental Build of configuration Debug for project Ack ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H503xx -c -I../Core/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ack.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Acknowledge\Ack\STM32H503RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ack.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ack.elf
+ 
+arm-none-eabi-size  Ack.elf 
+arm-none-eabi-objdump -h -S Ack.elf  > "Ack.list"
+   text	   data	    bss	    dec	    hex	filename
+  31272	    104	   2240	  33616	   8350	Ack.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ack.list
+ 
+16:30:55 **** Build of configuration Debug for project Ack_NodeB ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H503xx -c -I../Core/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ack_NodeB.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Acknowledge\Ack_NodeB\STM32H503RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ack_NodeB.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ack_NodeB.elf
+ 
+arm-none-eabi-size  Ack_NodeB.elf 
+arm-none-eabi-objdump -h -S Ack_NodeB.elf  > "Ack_NodeB.list"
+   text	   data	    bss	    dec	    hex	filename
+  25596	     12	   1908	  27516	   6b7c	Ack_NodeB.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ack_NodeB.list
+ 
+10:05:40 **** Incremental Build of configuration Debug for project Ack ****
+make -j16 all 
+arm-none-eabi-size  Ack.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31272	    104	   2240	  33616	   8350	Ack.elf
+Finished building: default.size.stdout
+ 
+11:40:01 **** Incremental Build of configuration Debug for project Ack ****
+make -j16 all 
+arm-none-eabi-size  Ack.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31272	    104	   2240	  33616	   8350	Ack.elf
+Finished building: default.size.stdout
+ 
+11:42:05 **** Incremental Build of configuration Debug for project Ack ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H503xx -c -I../Core/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ack.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Acknowledge\Ack\STM32H503RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ack.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ack.elf
+ 
+arm-none-eabi-size  Ack.elf 
+arm-none-eabi-objdump -h -S Ack.elf  > "Ack.list"
+   text	   data	    bss	    dec	    hex	filename
+  31348	    104	   2240	  33692	   839c	Ack.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ack.list
+ 
+11:52:08 **** Incremental Build of configuration Debug for project Ack ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H503xx -c -I../Core/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ack.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Acknowledge\Ack\STM32H503RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ack.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ack.elf
+ 
+arm-none-eabi-size  Ack.elf 
+arm-none-eabi-objdump -h -S Ack.elf  > "Ack.list"
+   text	   data	    bss	    dec	    hex	filename
+  31348	    104	   2240	  33692	   839c	Ack.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ack.list
+ 
+11:53:52 **** Incremental Build of configuration Debug for project Ack ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H503xx -c -I../Core/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ack.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Acknowledge\Ack\STM32H503RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ack.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ack.elf
+ 
+arm-none-eabi-size  Ack.elf 
+arm-none-eabi-objdump -h -S Ack.elf  > "Ack.list"
+   text	   data	    bss	    dec	    hex	filename
+  31348	    104	   2240	  33692	   839c	Ack.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ack.list
+ 
+13:16:13 **** Incremental Build of configuration Debug for project Ack ****
+make -j16 all 
+arm-none-eabi-size  Ack.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31348	    104	   2240	  33692	   839c	Ack.elf
+Finished building: default.size.stdout
+ 
+13:25:24 **** Incremental Build of configuration Debug for project Ack ****
+make -j16 all 
+arm-none-eabi-size  Ack.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31348	    104	   2240	  33692	   839c	Ack.elf
+Finished building: default.size.stdout
+ 
+15:43:43 **** Incremental Build of configuration Debug for project Ack ****
+make -j16 all 
+arm-none-eabi-size  Ack.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31348	    104	   2240	  33692	   839c	Ack.elf
+Finished building: default.size.stdout
+ 
+15:46:33 **** Incremental Build of configuration Debug for project Ack ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H503xx -c -I../Core/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ack.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Acknowledge\Ack\STM32H503RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ack.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ack.elf
+ 
+arm-none-eabi-size  Ack.elf 
+arm-none-eabi-objdump -h -S Ack.elf  > "Ack.list"
+   text	   data	    bss	    dec	    hex	filename
+  31372	    104	   2256	  33732	   83c4	Ack.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ack.list
+ 
+15:47:54 **** Incremental Build of configuration Debug for project Ack ****
+make -j16 all 
+arm-none-eabi-size  Ack.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31372	    104	   2256	  33732	   83c4	Ack.elf
+Finished building: default.size.stdout
+ 
+09:21:10 **** Incremental Build of configuration Debug for project Ack ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H503xx -c -I../Core/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ack.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Acknowledge\Ack\STM32H503RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ack.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ack.elf
+ 
+arm-none-eabi-size  Ack.elf 
+arm-none-eabi-objdump -h -S Ack.elf  > "Ack.list"
+   text	   data	    bss	    dec	    hex	filename
+  31372	    104	   2256	  33732	   83c4	Ack.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ack.list
+ 
+11:16:06 **** Incremental Build of configuration Debug for project Ack ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H503xx -c -I../Core/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ack.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Acknowledge\Ack\STM32H503RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ack.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ack.elf
+ 
+arm-none-eabi-size  Ack.elf 
+arm-none-eabi-objdump -h -S Ack.elf  > "Ack.list"
+   text	   data	    bss	    dec	    hex	filename
+  31372	    104	   2256	  33732	   83c4	Ack.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ack.list
+ 
+11:23:48 **** Incremental Build of configuration Debug for project Ack ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H503xx -c -I../Core/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ack.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Acknowledge\Ack\STM32H503RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ack.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ack.elf
+ 
+arm-none-eabi-size  Ack.elf 
+arm-none-eabi-objdump -h -S Ack.elf  > "Ack.list"
+   text	   data	    bss	    dec	    hex	filename
+  31372	    104	   2256	  33732	   83c4	Ack.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ack.list
+ 
+11:24:22 **** Incremental Build of configuration Debug for project Ack_NodeB ****
+make -j16 all 
+arm-none-eabi-size  Ack_NodeB.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25596	     12	   1908	  27516	   6b7c	Ack_NodeB.elf
+Finished building: default.size.stdout
+ 
+10:51:59 **** Incremental Build of configuration Debug for project Ack ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H503xx -c -I../Core/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "Ack.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Acknowledge\Ack\STM32H503RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Ack.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Ack.elf
+ 
+arm-none-eabi-size  Ack.elf 
+arm-none-eabi-objdump -h -S Ack.elf  > "Ack.list"
+   text	   data	    bss	    dec	    hex	filename
+  31372	    104	   2256	  33732	   83c4	Ack.elf
+Finished building: default.size.stdout
+ 
+Finished building: Ack.list
  

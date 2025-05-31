@@ -1,0 +1,10 @@
+10:25:30 **** Build of configuration Debug for project NodeA ****
+make -j16 all 
+arm-none-eabi-size  NodeA.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26856	     12	   1796	  28664	   6ff8	NodeA.elf
+Finished building: default.size.stdout
+ 
+
+10:25:30 Build Finished. 0 errors, 0 warnings. (took 302ms)
+

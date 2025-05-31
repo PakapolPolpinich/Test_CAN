@@ -1,0 +1,10 @@
+15:20:52 **** Incremental Build of configuration Debug for project Testmeasure ****
+make -j16 all 
+arm-none-eabi-size  Testmeasure.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30884	    104	   2264	  33252	   81e4	Testmeasure.elf
+Finished building: default.size.stdout
+ 
+
+15:20:52 Build Finished. 0 errors, 0 warnings. (took 226ms)
+

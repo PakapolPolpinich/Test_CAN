@@ -1,0 +1,17 @@
+15:14:44 **** Incremental Build of configuration Debug for project noisegen ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/Timer.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H503xx -c -I../Core/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Timer.d" -MT"Core/Src/Timer.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Timer.o"
+arm-none-eabi-gcc -o "noisegen.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Bit_error\noisegen\STM32H503RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="noisegen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: noisegen.elf
+ 
+arm-none-eabi-size  noisegen.elf 
+arm-none-eabi-objdump -h -S noisegen.elf  > "noisegen.list"
+   text	   data	    bss	    dec	    hex	filename
+  22816	     12	   1724	  24552	   5fe8	noisegen.elf
+Finished building: default.size.stdout
+ 
+Finished building: noisegen.list
+ 
+
+15:14:45 Build Finished. 0 errors, 0 warnings. (took 884ms)
+

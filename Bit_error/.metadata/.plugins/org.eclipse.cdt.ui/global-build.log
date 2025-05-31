@@ -1,0 +1,84 @@
+11:20:37 **** Incremental Build of configuration Debug for project w_NodeB ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H503xx -c -I../Core/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "w_NodeB.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Bit_error\w_NodeB\STM32H503RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="w_NodeB.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: w_NodeB.elf
+ 
+arm-none-eabi-size  w_NodeB.elf 
+arm-none-eabi-objdump -h -S w_NodeB.elf  > "w_NodeB.list"
+   text	   data	    bss	    dec	    hex	filename
+  31412	    104	   2256	  33772	   83ec	w_NodeB.elf
+Finished building: default.size.stdout
+ 
+Finished building: w_NodeB.list
+ 
+11:20:54 **** Incremental Build of configuration Debug for project w_NodeB ****
+make -j16 all 
+arm-none-eabi-size  w_NodeB.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31412	    104	   2256	  33772	   83ec	w_NodeB.elf
+Finished building: default.size.stdout
+ 
+11:22:30 **** Incremental Build of configuration Debug for project noisegen ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H503xx -c -I../Core/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "noisegen.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Bit_error\noisegen\STM32H503RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="noisegen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: noisegen.elf
+ 
+arm-none-eabi-size  noisegen.elf 
+arm-none-eabi-objdump -h -S noisegen.elf  > "noisegen.list"
+   text	   data	    bss	    dec	    hex	filename
+  22816	     12	   1724	  24552	   5fe8	noisegen.elf
+Finished building: default.size.stdout
+ 
+Finished building: noisegen.list
+ 
+11:30:43 **** Incremental Build of configuration Debug for project noisegen ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/Timer.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H503xx -c -I../Core/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Timer.d" -MT"Core/Src/Timer.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Timer.o"
+arm-none-eabi-gcc -o "noisegen.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Bit_error\noisegen\STM32H503RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="noisegen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: noisegen.elf
+ 
+arm-none-eabi-size  noisegen.elf 
+arm-none-eabi-objdump -h -S noisegen.elf  > "noisegen.list"
+   text	   data	    bss	    dec	    hex	filename
+  22816	     12	   1724	  24552	   5fe8	noisegen.elf
+Finished building: default.size.stdout
+ 
+Finished building: noisegen.list
+ 
+15:12:56 **** Incremental Build of configuration Debug for project noisegen ****
+make -j16 all 
+arm-none-eabi-size  noisegen.elf 
+   text	   data	    bss	    dec	    hex	filename
+  22816	     12	   1724	  24552	   5fe8	noisegen.elf
+Finished building: default.size.stdout
+ 
+15:14:03 **** Incremental Build of configuration Debug for project w_NodeB ****
+make -j16 all 
+arm-none-eabi-size  w_NodeB.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31412	    104	   2256	  33772	   83ec	w_NodeB.elf
+Finished building: default.size.stdout
+ 
+15:14:44 **** Incremental Build of configuration Debug for project noisegen ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/Timer.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H503xx -c -I../Core/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/Timer.d" -MT"Core/Src/Timer.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/Timer.o"
+arm-none-eabi-gcc -o "noisegen.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Bit_error\noisegen\STM32H503RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="noisegen.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: noisegen.elf
+ 
+arm-none-eabi-size  noisegen.elf 
+arm-none-eabi-objdump -h -S noisegen.elf  > "noisegen.list"
+   text	   data	    bss	    dec	    hex	filename
+  22816	     12	   1724	  24552	   5fe8	noisegen.elf
+Finished building: default.size.stdout
+ 
+Finished building: noisegen.list
+ 
+15:15:08 **** Incremental Build of configuration Debug for project E_NodeA ****
+make -j16 all 
+arm-none-eabi-size  E_NodeA.elf 
+   text	   data	    bss	    dec	    hex	filename
+  31372	    104	   2256	  33732	   83c4	E_NodeA.elf
+Finished building: default.size.stdout
+ 

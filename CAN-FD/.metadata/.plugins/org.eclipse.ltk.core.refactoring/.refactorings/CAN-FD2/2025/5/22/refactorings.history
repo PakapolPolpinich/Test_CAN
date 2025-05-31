@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;CAN-FD2/CAN-FD.ioc&apos; to &apos;CAN-FD2.ioc&apos;" description="Rename resource &apos;CAN-FD.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="CAN-FD.ioc" name="CAN-FD2.ioc" stamp="1748333865723" updateReferences="true"/>
+</session>

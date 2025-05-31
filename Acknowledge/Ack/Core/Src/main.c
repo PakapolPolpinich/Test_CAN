@@ -17,12 +17,13 @@ void Check_CAN_Protocol_Status();
 /* declared variable -----------------------------------------------*/
 volatile uint8_t counter = 0;
 volatile uint8_t flag = 0;
+volatile uint8_t tx_complete_flag = 0;
 typedef struct{
 	FDCAN_TxHeaderTypeDef   TxHeader;
 	FDCAN_RxHeaderTypeDef   RxHeader;
 	uint32_t msgID;
-	uint8_t dataTx[2];
-	uint8_t dataRx[2];
+	uint8_t dataTx[8];
+	uint8_t dataRx[8];
 } CAN_SET;
 
 CAN_SET CAN_Payload;
@@ -40,7 +41,10 @@ int main(void)
   MX_FDCAN1_Init();
   MX_USART3_UART_Init();
 
-  CAN_Payload.dataTx[0] = 0x0;
+  //CAN_Payload.dataTx[0] = 0x0;
+  for(uint8_t i = 0 ; i < 8 ;i++){
+  	  CAN_Payload.dataTx[i] = 0xFF;
+    }
 
   while (1)
   {
@@ -51,6 +55,14 @@ int main(void)
 		  Check_CAN_Protocol_Status();
 		  flag = 0;
 	  }
+//	  if (tx_complete_flag == 1)
+//	     {
+//	         tx_complete_flag = 0;
+//
+//	         Print_CAN_Error();
+//	         Check_CAN_ErrorCnt();
+//	         Check_CAN_Protocol_Status();
+//	     }
   }
 }
 
@@ -96,11 +108,13 @@ static void MX_FDCAN1_Init(void)
 	/* Notification Error */
 	Error_Handler();
   }
+ // HAL_FDCAN_ActivateNotification(&hfdcan1, FDCAN_IT_TX_COMPLETE, 0);
   /* USER CODE END FDCAN1_Init 2 */
 }
 
 void Test_Ack(){
-	CAN_Payload.msgID = 0x1AA;
+	CAN_Payload.msgID = 0x10F;
+	//CAN_Payload.msgID = 0x000;
 	TX_Send_CAN();
 }
 
@@ -111,7 +125,7 @@ void TX_Send_CAN(){
     CAN_Payload.TxHeader.IdType = FDCAN_STANDARD_ID;
     CAN_Payload.TxHeader.Identifier = CAN_Payload.msgID; //CAN_Payload.msgID
     CAN_Payload.TxHeader.TxFrameType = FDCAN_DATA_FRAME;
-    CAN_Payload.TxHeader.DataLength = FDCAN_DLC_BYTES_1;        // 8-byte payloaD
+    CAN_Payload.TxHeader.DataLength = FDCAN_DLC_BYTES_8;        // 8-byte payloaD
     CAN_Payload.TxHeader.ErrorStateIndicator = FDCAN_ESI_ACTIVE;
     CAN_Payload.TxHeader.BitRateSwitch = FDCAN_BRS_OFF;         // Disable BRS
     CAN_Payload.TxHeader.FDFormat = FDCAN_CLASSIC_CAN;          // Use Classical CAN frame
@@ -231,7 +245,13 @@ int __io_putchar(int ch)
     return ch;
 }
 /* USER CODE END 4 */
-
+//void HAL_FDCAN_TxBufferCompleteCallback(FDCAN_HandleTypeDef *hfdcan, uint32_t BufferIndexes)
+//{
+//    if (hfdcan->Instance == FDCAN1)
+//    {
+//        tx_complete_flag = 1;
+//    }
+//}
 
 
 
