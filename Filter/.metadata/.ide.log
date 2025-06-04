@@ -1,0 +1,12 @@
+2025-06-04 04:47:48,044 [ERROR] WebApp:398 - JxBrowser engine crashed! Exit code: -1073741819
+2025-06-04 07:59:24,806 [INFO] Activator:176 - 
+
+
+2025-06-04 07:59:24,808 [INFO] Activator:177 - !SESSION log4j initialized
+2025-06-04 07:59:31,501 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2025-06-04 07:59:32,271 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-04 07:59:32,272 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-04 07:59:32,272 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-04 07:59:32,277 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-04 07:59:32,278 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-04 07:59:32,278 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com

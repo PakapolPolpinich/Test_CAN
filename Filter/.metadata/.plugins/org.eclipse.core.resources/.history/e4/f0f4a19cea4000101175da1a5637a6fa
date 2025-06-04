@@ -1,0 +1,14 @@
+/*
+ * FdCan.h
+ *
+ *  Created on: Jun 4, 2025
+ *      Author: Admin
+ */
+
+#ifndef INC_FDCAN_H_
+#define INC_FDCAN_H_
+
+#include "stm32h5xx_hal.h"
+
+
+#endif /* INC_FDCAN_H_ */

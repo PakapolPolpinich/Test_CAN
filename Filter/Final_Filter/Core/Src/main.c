@@ -1,0 +1,132 @@
+/* Includes ------------------------------------------------------------------*/
+#include "main.h"
+#include <stdio.h>
+
+typedef struct{
+	FDCAN_TxHeaderTypeDef   TxHeader;
+	FDCAN_RxHeaderTypeDef   RxHeader;
+	uint32_t msgID;
+	uint8_t dataTx[8];
+	uint8_t dataRx[8];
+} CAN_SET;
+
+CAN_SET CAN_Payload;
+
+FDCAN_HandleTypeDef hfdcan1;
+UART_HandleTypeDef huart3;
+FDCAN_FilterTypeDef sFilterConfig;
+
+
+int main(void)
+{
+  HAL_Init();
+
+  SystemClock_Config();
+  /* Initialize all configured peripherals */
+  MX_GPIO_Init();
+  MX_FDCAN1_Init();
+  MX_USART3_UART_Init();
+
+  while (1)
+  {
+  }
+
+}
+
+
+void HAL_FDCAN_RxFifo0Callback(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo0ITs)
+{
+	if((RxFifo0ITs & FDCAN_IT_RX_FIFO0_NEW_MESSAGE) != RESET)
+	{
+		/* Retreive Rx messages from RX FIFO0 */
+		if (HAL_FDCAN_GetRxMessage(hfdcan, FDCAN_RX_FIFO0, &CAN_Payload.RxHeader,CAN_Payload.dataRx) != HAL_OK)
+		{
+			/* Reception Error */
+			Error_Handler();
+		}
+		if (HAL_FDCAN_ActivateNotification(hfdcan, FDCAN_IT_RX_FIFO0_NEW_MESSAGE, 0) != HAL_OK)
+		{
+			/* Notification Error */
+			Error_Handler();
+		}
+		HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
+
+		//Print the received ID
+
+        // Use DataLength directly (0-8)
+        uint8_t data_length = CAN_Payload.RxHeader.DataLength;
+
+        // Print the received ID, DLC, and Data
+        if (CAN_Payload.RxHeader.IdType == FDCAN_STANDARD_ID) {
+            printf("Received STD ID: 0x%03lX, DLC: %d, Data: ", CAN_Payload.RxHeader.Identifier, data_length);
+        } else {
+            printf("Received EXT ID: 0x%08lX, DLC: %d, Data: ", CAN_Payload.RxHeader.Identifier, data_length);
+        }
+
+        // Print the data in hex format
+        for (uint8_t i = 0; i < data_length; i++) {
+            printf("%02X ", CAN_Payload.dataRx[i]);
+        }
+        printf("\r\n");
+	}
+}
+
+int __io_putchar(int ch)
+{
+    HAL_UART_Transmit(&huart3, (uint8_t*)&ch, 1,1000);
+    return ch;
+}
+/* USER CODE END 4 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+  * @brief  This function is executed in case of error occurrence.
+  * @retval None
+  */
+void Error_Handler(void)
+{
+  /* USER CODE BEGIN Error_Handler_Debug */
+  /* User can add his own implementation to report the HAL error return state */
+  __disable_irq();
+  while (1)
+  {
+  }
+  /* USER CODE END Error_Handler_Debug */
+}
+
+#ifdef  USE_FULL_ASSERT
+/**
+  * @brief  Reports the name of the source file and the source line number
+  *         where the assert_param error has occurred.
+  * @param  file: pointer to the source file name
+  * @param  line: assert_param error line source number
+  * @retval None
+  */
+void assert_failed(uint8_t *file, uint32_t line)
+{
+  /* USER CODE BEGIN 6 */
+  /* User can add his own implementation to report the file name and line number,
+     ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
+  /* USER CODE END 6 */
+}
+#endif /* USE_FULL_ASSERT */

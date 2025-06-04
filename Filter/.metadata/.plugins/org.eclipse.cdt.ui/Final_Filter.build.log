@@ -1,0 +1,10 @@
+09:44:09 **** Incremental Build of configuration Debug for project Final_Filter ****
+make -j16 all 
+arm-none-eabi-size  Final_Filter.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30564	    104	   2272	  32940	   80ac	Final_Filter.elf
+Finished building: default.size.stdout
+ 
+
+09:44:09 Build Finished. 0 errors, 0 warnings. (took 190ms)
+

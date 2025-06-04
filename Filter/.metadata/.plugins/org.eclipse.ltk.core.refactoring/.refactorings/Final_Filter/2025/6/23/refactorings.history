@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Final_Filter/Filter_set.ioc&apos; to &apos;Final_Filter.ioc&apos;" description="Rename resource &apos;Filter_set.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Filter_set.ioc" name="Final_Filter.ioc" stamp="1749003868249" updateReferences="true"/>
+</session>
