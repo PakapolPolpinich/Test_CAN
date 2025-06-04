@@ -19,3 +19,96 @@ arm-none-eabi-size  Final_Filter.elf
   30564	    104	   2272	  32940	   80ac	Final_Filter.elf
 Finished building: default.size.stdout
  
+13:49:57 **** Incremental Build of configuration Debug for project Filter_test_signal ****
+make -j16 all 
+arm-none-eabi-size  Filter_test_signal.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25364	     32	   1912	  27308	   6aac	Filter_test_signal.elf
+Finished building: default.size.stdout
+ 
+13:50:20 **** Incremental Build of configuration Debug for project Filter_test_signal ****
+make -j16 all 
+arm-none-eabi-size  Filter_test_signal.elf 
+   text	   data	    bss	    dec	    hex	filename
+  25364	     32	   1912	  27308	   6aac	Filter_test_signal.elf
+Finished building: default.size.stdout
+ 
+13:50:36 **** Incremental Build of configuration Debug for project Final_Filter ****
+make -j16 all 
+arm-none-eabi-size  Final_Filter.elf 
+   text	   data	    bss	    dec	    hex	filename
+  30564	    104	   2272	  32940	   80ac	Final_Filter.elf
+Finished building: default.size.stdout
+ 
+13:51:53 **** Incremental Build of configuration Debug for project Final_Filter ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/FdCan.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H503xx -c -I../Core/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/FdCan.d" -MT"Core/Src/FdCan.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/FdCan.o"
+../Core/Src/FdCan.c: In function 'MX_FDCAN1_Init':
+../Core/Src/FdCan.c:35:5: warning: implicit declaration of function 'Error_Handler' [-Wimplicit-function-declaration]
+   35 |     Error_Handler();
+      |     ^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "Final_Filter.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Filter\Final_Filter\STM32H503RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Final_Filter.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Final_Filter.elf
+ 
+arm-none-eabi-size  Final_Filter.elf 
+arm-none-eabi-objdump -h -S Final_Filter.elf  > "Final_Filter.list"
+   text	   data	    bss	    dec	    hex	filename
+  30428	    104	   2272	  32804	   8024	Final_Filter.elf
+Finished building: default.size.stdout
+ 
+Finished building: Final_Filter.list
+ 
+13:52:29 **** Incremental Build of configuration Debug for project Final_Filter ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/FdCan.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H503xx -c -I../Core/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/FdCan.d" -MT"Core/Src/FdCan.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/FdCan.o"
+../Core/Src/FdCan.c: In function 'MX_FDCAN1_Init':
+../Core/Src/FdCan.c:35:5: warning: implicit declaration of function 'Error_Handler' [-Wimplicit-function-declaration]
+   35 |     Error_Handler();
+      |     ^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "Final_Filter.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Filter\Final_Filter\STM32H503RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Final_Filter.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Final_Filter.elf
+ 
+arm-none-eabi-size  Final_Filter.elf 
+arm-none-eabi-objdump -h -S Final_Filter.elf  > "Final_Filter.list"
+   text	   data	    bss	    dec	    hex	filename
+  30308	    104	   2272	  32684	   7fac	Final_Filter.elf
+Finished building: default.size.stdout
+ 
+Finished building: Final_Filter.list
+ 
+13:54:05 **** Incremental Build of configuration Debug for project Final_Filter ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/FdCan.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H503xx -c -I../Core/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/FdCan.d" -MT"Core/Src/FdCan.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/FdCan.o"
+../Core/Src/FdCan.c: In function 'MX_FDCAN1_Init':
+../Core/Src/FdCan.c:35:5: warning: implicit declaration of function 'Error_Handler' [-Wimplicit-function-declaration]
+   35 |     Error_Handler();
+      |     ^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "Final_Filter.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Filter\Final_Filter\STM32H503RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Final_Filter.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Final_Filter.elf
+ 
+arm-none-eabi-size  Final_Filter.elf 
+arm-none-eabi-objdump -h -S Final_Filter.elf  > "Final_Filter.list"
+   text	   data	    bss	    dec	    hex	filename
+  30564	    104	   2272	  32940	   80ac	Final_Filter.elf
+Finished building: default.size.stdout
+ 
+Finished building: Final_Filter.list
+ 
+13:55:58 **** Incremental Build of configuration Debug for project Final_Filter ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/FdCan.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H503xx -c -I../Core/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/FdCan.d" -MT"Core/Src/FdCan.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/FdCan.o"
+../Core/Src/FdCan.c: In function 'MX_FDCAN1_Init':
+../Core/Src/FdCan.c:35:5: warning: implicit declaration of function 'Error_Handler' [-Wimplicit-function-declaration]
+   35 |     Error_Handler();
+      |     ^~~~~~~~~~~~~
+arm-none-eabi-gcc -o "Final_Filter.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Filter\Final_Filter\STM32H503RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Final_Filter.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Final_Filter.elf
+ 
+arm-none-eabi-size  Final_Filter.elf 
+arm-none-eabi-objdump -h -S Final_Filter.elf  > "Final_Filter.list"
+   text	   data	    bss	    dec	    hex	filename
+  30520	    104	   2272	  32896	   8080	Final_Filter.elf
+Finished building: default.size.stdout
+ 
+Finished building: Final_Filter.list
+ 

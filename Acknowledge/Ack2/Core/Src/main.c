@@ -191,7 +191,7 @@ void HAL_GPIO_EXTI_Falling_Callback(uint16_t GPIO_Pin){
 				 SetFilter(0x1AA,0x7FF);
 				 value++;
 			}else{
-				 SetFilter(0x105,0x7FF);
+				 SetFilter(0x10F,0x7FF);
 			}
 			counter ^= 1;
 	#endif

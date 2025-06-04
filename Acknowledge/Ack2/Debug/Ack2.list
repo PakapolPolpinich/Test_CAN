@@ -980,9 +980,9 @@ void HAL_GPIO_EXTI_Falling_Callback(uint16_t GPIO_Pin){
  8000950:	701a      	strb	r2, [r3, #0]
  8000952:	e005      	b.n	8000960 <HAL_GPIO_EXTI_Falling_Callback+0x44>
 			}else{
-				 SetFilter(0x105,0x7FF);
+				 SetFilter(0x10F,0x7FF);
  8000954:	f240 71ff 	movw	r1, #2047	@ 0x7ff
- 8000958:	f240 1005 	movw	r0, #261	@ 0x105
+ 8000958:	f240 100f 	movw	r0, #271	@ 0x10f
  800095c:	f7ff ffb0 	bl	80008c0 <SetFilter>
 			}
 			counter ^= 1;

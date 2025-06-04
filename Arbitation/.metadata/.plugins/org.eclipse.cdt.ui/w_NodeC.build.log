@@ -1,17 +1,10 @@
-10:15:00 **** Incremental Build of configuration Debug for project w_NodeC ****
+15:46:22 **** Build of configuration Debug for project w_NodeC ****
 make -j16 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m33 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32H503xx -c -I../Core/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc -I../Drivers/STM32H5xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32H5xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "w_NodeC.elf" @"objects.list"   -mcpu=cortex-m33 -T"C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\w_NodeC\STM32H503RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="w_NodeC.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: w_NodeC.elf
- 
 arm-none-eabi-size  w_NodeC.elf 
-arm-none-eabi-objdump -h -S w_NodeC.elf  > "w_NodeC.list"
    text	   data	    bss	    dec	    hex	filename
   28884	    104	   2240	  31228	   79fc	w_NodeC.elf
 Finished building: default.size.stdout
  
-Finished building: w_NodeC.list
- 
 
-10:15:01 Build Finished. 0 errors, 0 warnings. (took 771ms)
+15:46:23 Build Finished. 0 errors, 0 warnings. (took 265ms)
 

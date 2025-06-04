@@ -1,4 +1,4 @@
-09:35:13 **** Incremental Build of configuration Debug for project Filter_test_signal ****
+13:50:20 **** Incremental Build of configuration Debug for project Filter_test_signal ****
 make -j16 all 
 arm-none-eabi-size  Filter_test_signal.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size  Filter_test_signal.elf
 Finished building: default.size.stdout
  
 
-09:35:13 Build Finished. 0 errors, 0 warnings. (took 196ms)
+13:50:20 Build Finished. 0 errors, 0 warnings. (took 309ms)
 

@@ -1,12 +1,15 @@
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
 LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
-configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Three_NODE_A Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Three_NODE_B Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Extend_NodeB Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Standard_NodeB Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:w_NodeC Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Std_Tx_NodeA_Distance Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Std_Tx_NodeC_Distance Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Std_Rx_NodeB_Distance Debug
+configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Three_NODE_A Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Three_NODE_B Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:w_NodeC Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Std_Tx_NodeA_Distance Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Std_Tx_NodeC_Distance Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Std_Rx_NodeB_Distance Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Standard_NodeB Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:F4_gensignal Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:trigtim Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Standard_NodeA Debug,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Extend_NodeB Debug
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Extend_NodeB\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Extend_NodeB\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:F4_gensignal\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Standard_NodeA\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Three_NODE_A\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Three_NODE_A\ Debug/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Three_NODE_B\ Debug\ (1)/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Three_NODE_B\ Debug/activeLaunchMode=run
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:trigtim\ Debug/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:w_NodeC\ Debug/activeLaunchMode=run

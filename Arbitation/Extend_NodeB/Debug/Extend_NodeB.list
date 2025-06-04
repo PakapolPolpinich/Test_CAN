@@ -27,25 +27,25 @@ Idx Name          Size      VMA       LMA       File off  Algn
                   ALLOC
  11 .ARM.attributes 00000036  00000000  00000000  00008018  2**0
                   CONTENTS, READONLY
- 12 .debug_info   000116a0  00000000  00000000  0000804e  2**0
+ 12 .debug_info   000116b3  00000000  00000000  0000804e  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 13 .debug_abbrev 000021fb  00000000  00000000  000196ee  2**0
+ 13 .debug_abbrev 000021fb  00000000  00000000  00019701  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 14 .debug_aranges 00000c38  00000000  00000000  0001b8f0  2**3
+ 14 .debug_aranges 00000c38  00000000  00000000  0001b900  2**3
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 15 .debug_rnglists 00000956  00000000  00000000  0001c528  2**0
+ 15 .debug_rnglists 00000956  00000000  00000000  0001c538  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 16 .debug_macro  0001ffdc  00000000  00000000  0001ce7e  2**0
+ 16 .debug_macro  0001ffdc  00000000  00000000  0001ce8e  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 17 .debug_line   00010ca8  00000000  00000000  0003ce5a  2**0
+ 17 .debug_line   00010ca9  00000000  00000000  0003ce6a  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 18 .debug_str    000c617d  00000000  00000000  0004db02  2**0
+ 18 .debug_str    000c617d  00000000  00000000  0004db13  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 19 .comment      00000043  00000000  00000000  00113c7f  2**0
+ 19 .comment      00000043  00000000  00000000  00113c90  2**0
                   CONTENTS, READONLY
- 20 .debug_frame  0000324c  00000000  00000000  00113cc4  2**2
+ 20 .debug_frame  0000324c  00000000  00000000  00113cd4  2**2
                   CONTENTS, READONLY, DEBUGGING, OCTETS
- 21 .debug_line_str 00000077  00000000  00000000  00116f10  2**0
+ 21 .debug_line_str 00000077  00000000  00000000  00116f20  2**0
                   CONTENTS, READONLY, DEBUGGING, OCTETS
 
 Disassembly of section .text:
@@ -696,10 +696,10 @@ void MX_GPIO_Init(void)
  80007d8:	42020800 	.word	0x42020800
 
 080007dc <main>:
-#ifdef NODE_B
-	uint32_t address[] = {0x00000000,0x0000A0A,0x00040000};
 #endif
 
+volatile uint8_t flag = 0;
+//uint8_t extData[] = {0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08};
 int main(void)
 {
  80007dc:	b580      	push	{r7, lr}
@@ -719,7 +719,7 @@ int main(void)
  80007ec:	f000 f80a 	bl	8000804 <MX_FDCAN1_Init>
   MX_USART3_UART_Init();
  80007f0:	f000 fabc 	bl	8000d6c <MX_USART3_UART_Init>
-
+ // Timer3_init();
   CAN_Payload.dataTx[0] = 0x0;
  80007f4:	4b02      	ldr	r3, [pc, #8]	@ (8000800 <main+0x24>)
  80007f6:	2200      	movs	r2, #0
@@ -949,6 +949,10 @@ void TX_Send_CAN(){
  8000928:	b2da      	uxtb	r2, r3
  800092a:	4b07      	ldr	r3, [pc, #28]	@ (8000948 <TX_Send_CAN+0x60>)
  800092c:	f883 2050 	strb.w	r2, [r3, #80]	@ 0x50
+    //uint8_t extData[] = {0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08};
+//    for (uint8_t i = 0; i < 8 ;i++){
+//    	CAN_Payload.dataTx[i] = extData[i];
+//    }
 
     if (HAL_FDCAN_AddMessageToTxFifoQ(&hfdcan1, &CAN_Payload.TxHeader,CAN_Payload.dataTx)!= HAL_OK)
  8000930:	4a06      	ldr	r2, [pc, #24]	@ (800094c <TX_Send_CAN+0x64>)
@@ -982,6 +986,10 @@ void HAL_GPIO_EXTI_Falling_Callback(uint16_t GPIO_Pin){
  800095e:	88fb      	ldrh	r3, [r7, #6]
  8000960:	2b20      	cmp	r3, #32
  8000962:	d103      	bne.n	800096c <HAL_GPIO_EXTI_Falling_Callback+0x18>
+//		 TIM3->CNT = 0;
+//		 TIM3->CR1 |= TIM_CR1_CEN;
+//		 TIM3->DIER |= TIM_DIER_UIE;
+
 		Test_Priority();
  8000964:	f7ff ffa6 	bl	80008b4 <Test_Priority>
 		TX_Send_CAN();

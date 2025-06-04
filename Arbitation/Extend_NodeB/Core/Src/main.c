@@ -10,6 +10,7 @@ static void MX_FDCAN1_Init(void);
 void SetFilter(uint16_t ID ,uint16_t msk);
 void Test_Priority();
 void TX_Send_CAN();
+//void Timer3_init();
 
 volatile uint8_t Counter = 0;
 typedef struct{
@@ -27,9 +28,11 @@ CAN_SET CAN_Payload;
 #endif
 
 #ifdef NODE_B
-	uint32_t address[] = {0x00000000,0x0000A0A,0x00040000};
+	uint32_t address[] = {0x0000000,0x0000A0A,0x00040000};
 #endif
 
+volatile uint8_t flag = 0;
+//uint8_t extData[] = {0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08};
 int main(void)
 {
   /* MCU Configuration--------------------------------------------------------*/
@@ -42,7 +45,7 @@ int main(void)
   MX_GPIO_Init();
   MX_FDCAN1_Init();
   MX_USART3_UART_Init();
-
+ // Timer3_init();
   CAN_Payload.dataTx[0] = 0x0;
   /* Infinite loop */
   /* USER CODE BEGIN WHILE */
@@ -51,6 +54,11 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
+//	  if(flag == 1){
+//		  Test_Priority();
+//		  TX_Send_CAN();
+//		  flag = 0;
+//	  }
   }
   /* USER CODE END 3 */
 }
@@ -128,7 +136,13 @@ void SetFilter(uint16_t ID ,uint16_t msk){
 
 void Test_Priority(){
 
-	#ifdef NODE_A
+	#ifdef NODE_A_A
+		CAN_Payload.msgID = address[Counter];
+		CAN_Payload.TxHeader.IdType = FDCAN_STANDARD_ID;
+		//SetFilter(0x10,0x0);
+	#endif
+
+	#ifdef NODE_
 		CAN_Payload.msgID = address[Counter];
 		CAN_Payload.TxHeader.IdType = FDCAN_STANDARD_ID;
 		//SetFilter(0x10,0x0);
@@ -159,6 +173,10 @@ void TX_Send_CAN(){
     CAN_Payload.TxHeader.MessageMarker = 0;
 
     CAN_Payload.dataTx[0] ^= 1;
+    //uint8_t extData[] = {0x01, 0x02, 0x03, 0x04, 0x05, 0x06, 0x07, 0x08};
+//    for (uint8_t i = 0; i < 8 ;i++){
+//    	CAN_Payload.dataTx[i] = extData[i];
+//    }
 
     if (HAL_FDCAN_AddMessageToTxFifoQ(&hfdcan1, &CAN_Payload.TxHeader,CAN_Payload.dataTx)!= HAL_OK)
     {
@@ -169,6 +187,10 @@ void TX_Send_CAN(){
 void HAL_GPIO_EXTI_Falling_Callback(uint16_t GPIO_Pin){
 
 	if(GPIO_Pin == GPIO_PIN_5) {
+//		 TIM3->CNT = 0;
+//		 TIM3->CR1 |= TIM_CR1_CEN;
+//		 TIM3->DIER |= TIM_DIER_UIE;
+
 		Test_Priority();
 		TX_Send_CAN();
 
@@ -201,6 +223,45 @@ void HAL_FDCAN_RxFifo0Callback(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo0ITs)
 		HAL_GPIO_TogglePin(GPIOA, GPIO_PIN_5);
 	}
 }
+//void Timer3_init(){
+//	RCC->APB1LENR |= RCC_APB1LENR_TIM3EN;
+//
+//
+////	 TIM3->PSC = 199; /*40 us*/
+////	 TIM3->ARR = 39;
+//
+////	TIM3->PSC = 0;
+////	TIM3->ARR = 260;
+//
+//	TIM3->PSC = 0;
+//	TIM3->ARR = 20000;
+//
+//
+//	 // Enable update interrupt
+//	 TIM3->DIER |= TIM_DIER_UIE;
+//
+//	 // Enable TIM16
+//	// TIM2->CR1 |= TIM_CR1_CEN;
+//	 TIM3->CR1 &= ~TIM_CR1_CEN;
+//
+//	 NVIC_EnableIRQ(TIM3_IRQn);
+//	 NVIC_SetPriority(TIM3_IRQn,1);
+//
+//}
+//void TIM3_IRQHandler(void){
+//	 if (TIM3->SR & TIM_SR_UIF) {
+//		 TIM3->SR &= ~TIM_SR_UIF;
+//
+//		TIM3->CNT = 0;
+//		TIM3->CR1 &= ~TIM_CR1_CEN;
+//		TIM3->DIER &= ~TIM_DIER_UIE;
+//		__disable_irq();
+//		Test_Priority();
+//		TX_Send_CAN();
+//		__enable_irq();
+//	 }
+//}
+
 
 /* USER CODE END 4 */
 

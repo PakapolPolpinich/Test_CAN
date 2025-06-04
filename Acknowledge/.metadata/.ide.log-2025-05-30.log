@@ -1,0 +1,22 @@
+2025-05-30 08:32:57,622 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] Nominal 
+2025-05-30 08:32:57,651 [INFO] Can:71 - Can Add PropertyChangeListener com.st.microxplorer.plugins.ip.can.Can@4f04490
+2025-05-30 08:32:57,714 [INFO] ProjectChoiceTab:3537 - Project Structure = Dual Non Secure / Secure
+2025-05-30 08:32:57,941 [INFO] ProjectChoiceTab:3537 - Project Structure = Dual Non Secure / Secure
+2025-05-30 08:32:58,015 [INFO] CADModel:165 - CPN selected for project levelSTM32H503RBT6
+2025-05-30 08:32:58,015 [INFO] CADModel:114 - Register for checkConnection events
+2025-05-30 08:32:58,058 [INFO] OpenFileManager:363 - Restore cursor
+2025-05-30 08:32:58,284 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-05-30 08:32:58,284 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-05-30 08:32:58,284 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-05-30 08:32:58,284 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-05-30 08:32:58,284 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-05-30 08:32:58,284 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-05-30 08:32:58,284 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-05-30 08:32:58,284 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-05-30 08:32:58,284 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-05-30 08:32:58,284 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-05-30 08:32:58,284 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-05-30 08:32:58,284 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-05-30 08:32:58,284 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-05-30 08:32:58,284 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-05-30 08:32:58,284 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
