@@ -2,3 +2,6 @@ CAN_Payload.dataTx
 CAN_Payload.dataRx
 address
 Counter
+flag
+mode
+prev_mode

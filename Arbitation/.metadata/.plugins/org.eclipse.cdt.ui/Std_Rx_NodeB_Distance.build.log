@@ -1,4 +1,4 @@
-15:46:20 **** Build of configuration Debug for project Std_Rx_NodeB_Distance ****
+09:00:06 **** Build of configuration Debug for project Std_Rx_NodeB_Distance ****
 make -j16 all 
 arm-none-eabi-size  Std_Rx_NodeB_Distance.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size  Std_Rx_NodeB_Distance.elf
 Finished building: default.size.stdout
  
 
-15:46:21 Build Finished. 0 errors, 0 warnings. (took 271ms)
+09:00:07 Build Finished. 0 errors, 0 warnings. (took 338ms)
 

@@ -1,6 +1,626 @@
-2025-06-04 04:47:51,502 [ERROR] WebApp:398 - JxBrowser engine crashed! Exit code: -1073741819
-2025-06-04 09:52:01,441 [INFO] Activator:176 - 
+2025-06-05 08:39:05,819 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:39:05,916 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:39:05,917 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:40:32,524 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:40:32,526 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:40:32,526 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:41:24,506 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:41:24,507 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:41:24,508 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:41:48,668 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:41:48,668 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:41:48,669 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:43:12,012 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:43:12,013 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:43:12,014 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:43:12,217 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:43:12,218 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:43:12,218 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:46:48,517 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:46:48,519 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:46:48,520 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:49:09,609 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:49:09,611 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:49:09,613 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:49:09,851 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:49:09,852 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:49:09,854 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:50:13,470 [INFO] Gpio:277 - dependency for GPIO [FDCAN1, RCC, USART3]
+2025-06-05 08:50:23,758 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 1000269024 Bytes (1073741824)
+2025-06-05 08:50:23,878 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:50:23,879 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:50:23,880 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:50:26,176 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 987300976 Bytes (1073741824)
+2025-06-05 08:50:26,266 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:50:26,267 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:50:26,267 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:50:28,309 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 998485872 Bytes (1073741824)
+2025-06-05 08:50:28,433 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:50:28,436 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:50:28,438 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:50:30,815 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: MEMORYMAP
+2025-06-05 08:50:30,815 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: PWR
+2025-06-05 08:50:30,815 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-06-05 08:50:30,815 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-06-05 08:50:30,815 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: BOOTPATH
+2025-06-05 08:50:30,815 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-06-05 08:50:30,815 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2025-06-05 08:50:30,816 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-06-05 08:50:30,816 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: FDCAN
+2025-06-05 08:50:30,818 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-06-05 08:50:30,826 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 08:50:30,827 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 08:50:30,827 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 08:50:30,827 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 08:50:30,827 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 08:50:30,827 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 08:50:30,827 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 08:50:30,827 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 08:50:30,827 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 08:50:30,827 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 08:50:30,827 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 08:50:30,827 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 08:50:30,828 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 08:50:30,828 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 08:50:30,828 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 08:50:30,951 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\license.tmp_save
+2025-06-05 08:50:31,302 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\license.tmp
+2025-06-05 08:50:31,432 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\gpio.tmp_save
+2025-06-05 08:50:31,705 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\gpio.tmp
+2025-06-05 08:50:31,931 [WARN] IPConfigManager:98 - WARNING: Missing Config File for MEMORYMAP ip!!
+2025-06-05 08:50:31,932 [WARN] IP:2251 - DefaultDataRegion not found: check if there is a RefParameter without a condition.
+2025-06-05 08:50:32,362 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\cortex.tmp_save
+2025-06-05 08:50:32,502 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\cortex.tmp
+2025-06-05 08:50:32,580 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_it.c_save
+2025-06-05 08:50:32,848 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_it.c
+2025-06-05 08:50:32,856 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_it.h_save
+2025-06-05 08:50:32,939 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_it.h
+2025-06-05 08:50:32,993 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_hal_msp.c_save
+2025-06-05 08:50:33,156 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_hal_msp.c
+2025-06-05 08:50:33,163 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\system.tmp_save
+2025-06-05 08:50:33,245 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\system.tmp
+2025-06-05 08:50:33,294 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_hal_conf.h_save
+2025-06-05 08:50:33,509 [INFO] CodeEngine:335 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_hal_conf.h
+2025-06-05 08:50:33,557 [WARN] IPConfigManager:3034 - Warning: the RefConfig ConfigAttributesSEC is not available in your config.xml file
+2025-06-05 08:50:33,564 [ERROR] ApiDbMcu:464 - Can't load MEMORYMAP-STM32xx root dir null
+2025-06-05 08:50:33,565 [ERROR] ApiDbMcu:536 - Cannot parse MEMORYMAP_Config file : file do not exist
+2025-06-05 08:50:33,608 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\main.h_save
+2025-06-05 08:50:33,747 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\main.h
+2025-06-05 08:50:33,788 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\main.c_save
+2025-06-05 08:50:33,980 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\main.c
+2025-06-05 08:50:34,454 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 207mS.
+2025-06-05 08:50:34,458 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-06-05 08:50:34,559 [INFO] ConfigFileManager:1579 - The Die is : DIE474
+2025-06-05 08:50:36,544 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 2086mS.
+2025-06-05 08:50:36,547 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2025-06-05 08:50:36,550 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-06-05 08:50:45,927 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:50:45,927 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:50:45,928 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:50:46,133 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:50:46,133 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:50:46,134 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:53:53,915 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:53:53,918 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:53:53,919 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:53:54,130 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:53:54,130 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:53:54,131 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 08:55:08,139 [INFO] WebApp:187 - Connection restablished
+2025-06-05 09:03:47,542 [ERROR] ConfigurationRetriever:142 - IOException on connection: Connect timed out
+2025-06-05 09:38:36,585 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 996235952 Bytes (1073741824)
+2025-06-05 09:38:38,364 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 992939904 Bytes (1073741824)
+2025-06-05 09:38:40,789 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 965703192 Bytes (1073741824)
+2025-06-05 09:38:44,227 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: MEMORYMAP
+2025-06-05 09:38:44,227 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: PWR
+2025-06-05 09:38:44,227 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-06-05 09:38:44,227 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-06-05 09:38:44,227 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: BOOTPATH
+2025-06-05 09:38:44,229 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-06-05 09:38:44,229 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2025-06-05 09:38:44,230 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-06-05 09:38:44,230 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: FDCAN
+2025-06-05 09:38:44,231 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-06-05 09:38:44,243 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 09:38:44,243 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 09:38:44,243 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 09:38:44,243 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 09:38:44,243 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 09:38:44,244 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 09:38:44,244 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 09:38:44,244 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 09:38:44,244 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 09:38:44,244 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 09:38:44,244 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 09:38:44,244 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 09:38:44,244 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 09:38:44,244 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 09:38:44,244 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 09:38:44,417 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\license.tmp_save
+2025-06-05 09:38:44,983 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\license.tmp
+2025-06-05 09:38:45,174 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\gpio.tmp_save
+2025-06-05 09:38:45,523 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\gpio.tmp
+2025-06-05 09:38:45,719 [WARN] IPConfigManager:98 - WARNING: Missing Config File for MEMORYMAP ip!!
+2025-06-05 09:38:45,721 [WARN] IP:2251 - DefaultDataRegion not found: check if there is a RefParameter without a condition.
+2025-06-05 09:38:46,128 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\cortex.tmp_save
+2025-06-05 09:38:46,307 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\cortex.tmp
+2025-06-05 09:38:46,365 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_it.c_save
+2025-06-05 09:38:46,747 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_it.c
+2025-06-05 09:38:46,760 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_it.h_save
+2025-06-05 09:38:46,855 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_it.h
+2025-06-05 09:38:46,910 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_hal_msp.c_save
+2025-06-05 09:38:47,074 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_hal_msp.c
+2025-06-05 09:38:47,081 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\system.tmp_save
+2025-06-05 09:38:47,157 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\system.tmp
+2025-06-05 09:38:47,200 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_hal_conf.h_save
+2025-06-05 09:38:47,337 [INFO] CodeEngine:335 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_hal_conf.h
+2025-06-05 09:38:47,382 [WARN] IPConfigManager:3034 - Warning: the RefConfig ConfigAttributesSEC is not available in your config.xml file
+2025-06-05 09:38:47,389 [ERROR] ApiDbMcu:464 - Can't load MEMORYMAP-STM32xx root dir null
+2025-06-05 09:38:47,389 [ERROR] ApiDbMcu:536 - Cannot parse MEMORYMAP_Config file : file do not exist
+2025-06-05 09:38:47,429 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\main.h_save
+2025-06-05 09:38:47,570 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\main.h
+2025-06-05 09:38:47,610 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\main.c_save
+2025-06-05 09:38:47,807 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\main.c
+2025-06-05 09:38:48,360 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 213mS.
+2025-06-05 09:38:48,365 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-06-05 09:38:48,475 [INFO] ConfigFileManager:1579 - The Die is : DIE474
+2025-06-05 09:38:50,459 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 2094mS.
+2025-06-05 09:38:50,461 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2025-06-05 09:38:50,465 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-06-05 10:39:08,962 [INFO] WebApp:190 - Connection lost
+2025-06-05 11:36:21,351 [INFO] WebApp:187 - Connection restablished
+2025-06-05 11:36:23,527 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 11:36:23.521 ERROR Chromium process exit code: -1,073,741,819
+2025-06-05 11:36:23,528 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2025-06-05 11:36:23,531 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 11:36:23.529 ERROR Crash dump dir: C:\Users\Admin\AppData\Local\JxBrowser\7.39.2\CrashReports
+2025-06-05 11:36:23,532 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2025-06-05 11:36:23,539 [ERROR] WebApp:398 - JxBrowser engine crashed! Exit code: -1073741819
+2025-06-05 13:06:40,812 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 13:06:40,816 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 13:06:40,817 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 13:06:41,058 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 13:06:41,059 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 13:06:41,060 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 13:07:19,157 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 13:07:19,159 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 13:07:19,160 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 13:07:19,376 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 13:07:19,377 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 13:07:19,379 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 14:07:58,574 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 14:07:58,575 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 14:07:58,576 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:07:58,576 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:07:58,576 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:07:58,576 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:07:58,576 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:07:58,577 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:07:58,577 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:07:58,577 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:07:58,577 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 14:07:58,577 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 14:07:58,578 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 14:07:58,578 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 14:07:58,578 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 14:07:58,771 [INFO] Gpio:277 - dependency for GPIO [FDCAN1, RCC, USART3]
+2025-06-05 14:07:58,946 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-06-05 14:08:07,988 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 14:08:07,988 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 14:08:07,988 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:08:07,989 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:08:07,989 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:08:07,989 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:08:07,989 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:08:07,989 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:08:07,989 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:08:07,989 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:08:07,989 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 14:08:07,989 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 14:08:07,989 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 14:08:07,989 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 14:08:07,989 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 14:08:08,120 [INFO] Gpio:277 - dependency for GPIO [FDCAN1, RCC, USART3]
+2025-06-05 14:08:08,248 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-06-05 14:19:25,440 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:25,442 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:25,442 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:25,442 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:25,442 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:25,442 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:25,442 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:25,442 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:25,443 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:25,443 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:25,443 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:25,443 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:25,443 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:25,443 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:25,443 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:25,656 [INFO] Gpio:277 - dependency for GPIO [FDCAN1, RCC, USART3]
+2025-06-05 14:19:25,831 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-06-05 14:19:29,834 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:29,834 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:29,834 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:29,834 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:29,834 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:29,834 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:29,835 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:29,835 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:29,835 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:29,835 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:29,835 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:29,835 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:29,835 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:29,835 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:29,835 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 14:19:29,955 [INFO] Gpio:277 - dependency for GPIO [FDCAN1, RCC, USART3]
+2025-06-05 14:19:30,080 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-06-05 14:20:14,616 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 1008176400 Bytes (1073741824)
+2025-06-05 14:20:16,401 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 978622904 Bytes (1073741824)
+2025-06-05 14:20:19,309 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 980627328 Bytes (1073741824)
+2025-06-05 14:20:21,829 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: MEMORYMAP
+2025-06-05 14:20:21,829 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: PWR
+2025-06-05 14:20:21,829 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-06-05 14:20:21,829 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-06-05 14:20:21,829 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: BOOTPATH
+2025-06-05 14:20:21,831 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-06-05 14:20:21,831 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2025-06-05 14:20:21,831 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-06-05 14:20:21,832 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: FDCAN
+2025-06-05 14:20:21,845 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-06-05 14:20:21,855 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 14:20:21,855 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 14:20:21,855 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:20:21,855 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:20:21,855 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:20:21,855 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:20:21,857 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:20:21,857 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:20:21,857 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:20:21,857 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:20:21,857 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 14:20:21,857 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 14:20:21,857 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 14:20:21,857 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 14:20:21,857 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 14:20:21,991 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\license.tmp_save
+2025-06-05 14:20:22,581 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\license.tmp
+2025-06-05 14:20:22,702 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\gpio.tmp_save
+2025-06-05 14:20:22,903 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\gpio.tmp
+2025-06-05 14:20:23,104 [WARN] IPConfigManager:98 - WARNING: Missing Config File for MEMORYMAP ip!!
+2025-06-05 14:20:23,105 [WARN] IP:2251 - DefaultDataRegion not found: check if there is a RefParameter without a condition.
+2025-06-05 14:20:23,479 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\cortex.tmp_save
+2025-06-05 14:20:23,655 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\cortex.tmp
+2025-06-05 14:20:23,722 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_it.c_save
+2025-06-05 14:20:24,003 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_it.c
+2025-06-05 14:20:24,023 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_it.h_save
+2025-06-05 14:20:24,110 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_it.h
+2025-06-05 14:20:24,152 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_hal_msp.c_save
+2025-06-05 14:20:24,401 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_hal_msp.c
+2025-06-05 14:20:24,410 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\system.tmp_save
+2025-06-05 14:20:24,493 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\system.tmp
+2025-06-05 14:20:24,533 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_hal_conf.h_save
+2025-06-05 14:20:24,689 [INFO] CodeEngine:335 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_hal_conf.h
+2025-06-05 14:20:24,729 [WARN] IPConfigManager:3034 - Warning: the RefConfig ConfigAttributesSEC is not available in your config.xml file
+2025-06-05 14:20:24,736 [ERROR] ApiDbMcu:464 - Can't load MEMORYMAP-STM32xx root dir null
+2025-06-05 14:20:24,736 [ERROR] ApiDbMcu:536 - Cannot parse MEMORYMAP_Config file : file do not exist
+2025-06-05 14:20:24,793 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\main.h_save
+2025-06-05 14:20:24,933 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\main.h
+2025-06-05 14:20:24,981 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\main.c_save
+2025-06-05 14:20:25,159 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\main.c
+2025-06-05 14:20:25,666 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 307mS.
+2025-06-05 14:20:25,671 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-06-05 14:20:25,787 [INFO] ConfigFileManager:1579 - The Die is : DIE474
+2025-06-05 14:20:27,476 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 1805mS.
+2025-06-05 14:20:27,477 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2025-06-05 14:20:27,481 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2025-06-05 14:20:54,064 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-06-05 14:20:55,759 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 1027556736 Bytes (1073741824)
+2025-06-05 14:20:57,385 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 1006260464 Bytes (1073741824)
+2025-06-05 14:21:01,243 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 1023662304 Bytes (1073741824)
+2025-06-05 14:21:03,159 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: MEMORYMAP
+2025-06-05 14:21:03,160 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: PWR
+2025-06-05 14:21:03,161 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-06-05 14:21:03,161 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-06-05 14:21:03,161 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: BOOTPATH
+2025-06-05 14:21:03,161 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-06-05 14:21:03,161 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2025-06-05 14:21:03,162 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-06-05 14:21:03,162 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: FDCAN
+2025-06-05 14:21:03,164 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-06-05 14:21:03,173 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:03,173 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:03,173 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:03,173 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:03,173 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:03,173 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:03,173 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:03,173 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:03,173 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:03,173 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:03,173 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:03,173 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:03,173 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:03,173 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:03,173 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:03,332 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\license.tmp_save
+2025-06-05 14:21:03,430 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\license.tmp
+2025-06-05 14:21:03,508 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\gpio.tmp_save
+2025-06-05 14:21:03,611 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\gpio.tmp
+2025-06-05 14:21:03,740 [WARN] IPConfigManager:98 - WARNING: Missing Config File for MEMORYMAP ip!!
+2025-06-05 14:21:03,741 [WARN] IP:2251 - DefaultDataRegion not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:03,987 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\cortex.tmp_save
+2025-06-05 14:21:04,075 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\cortex.tmp
+2025-06-05 14:21:04,117 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_it.c_save
+2025-06-05 14:21:04,245 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_it.c
+2025-06-05 14:21:04,253 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_it.h_save
+2025-06-05 14:21:04,315 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_it.h
+2025-06-05 14:21:04,344 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_hal_msp.c_save
+2025-06-05 14:21:04,434 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_hal_msp.c
+2025-06-05 14:21:04,440 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\system.tmp_save
+2025-06-05 14:21:04,512 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\system.tmp
+2025-06-05 14:21:04,535 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_hal_conf.h_save
+2025-06-05 14:21:04,637 [INFO] CodeEngine:335 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_hal_conf.h
+2025-06-05 14:21:04,673 [WARN] IPConfigManager:3034 - Warning: the RefConfig ConfigAttributesSEC is not available in your config.xml file
+2025-06-05 14:21:04,676 [ERROR] ApiDbMcu:464 - Can't load MEMORYMAP-STM32xx root dir null
+2025-06-05 14:21:04,676 [ERROR] ApiDbMcu:536 - Cannot parse MEMORYMAP_Config file : file do not exist
+2025-06-05 14:21:04,700 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\main.h_save
+2025-06-05 14:21:04,773 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\main.h
+2025-06-05 14:21:04,790 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\main.c_save
+2025-06-05 14:21:04,909 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\main.c
+2025-06-05 14:21:05,301 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 164mS.
+2025-06-05 14:21:05,316 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-06-05 14:21:05,402 [INFO] ConfigFileManager:1579 - The Die is : DIE474
+2025-06-05 14:21:06,948 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 1631mS.
+2025-06-05 14:21:06,949 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2025-06-05 14:21:06,952 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-06-05 14:21:56,595 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:56,595 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:56,595 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:56,595 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:56,595 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:56,595 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:56,595 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:56,595 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:56,595 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:56,595 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:56,595 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:56,595 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:56,595 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:56,595 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:56,595 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:59,793 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:59,793 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:59,793 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:59,794 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:59,794 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:59,794 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:59,794 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:59,794 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:59,794 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:59,794 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:59,794 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:59,794 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:59,794 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:59,794 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 14:21:59,794 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 14:22:01,894 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 976707888 Bytes (1073741824)
+2025-06-05 14:22:03,539 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 1017602352 Bytes (1073741824)
+2025-06-05 14:22:05,606 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 1002294528 Bytes (1073741824)
+2025-06-05 14:22:08,051 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: MEMORYMAP
+2025-06-05 14:22:08,051 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: PWR
+2025-06-05 14:22:08,051 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-06-05 14:22:08,051 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-06-05 14:22:08,051 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: BOOTPATH
+2025-06-05 14:22:08,051 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-06-05 14:22:08,051 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2025-06-05 14:22:08,052 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-06-05 14:22:08,052 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: FDCAN
+2025-06-05 14:22:08,052 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-06-05 14:22:08,057 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 14:22:08,057 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 14:22:08,057 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:22:08,057 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:22:08,057 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:22:08,057 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:22:08,057 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:22:08,057 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:22:08,057 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:22:08,057 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:22:08,057 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 14:22:08,057 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 14:22:08,057 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 14:22:08,057 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 14:22:08,057 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 14:22:08,161 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\license.tmp_save
+2025-06-05 14:22:08,533 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\license.tmp
+2025-06-05 14:22:08,624 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\gpio.tmp_save
+2025-06-05 14:22:08,845 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\gpio.tmp
+2025-06-05 14:22:09,023 [WARN] IPConfigManager:98 - WARNING: Missing Config File for MEMORYMAP ip!!
+2025-06-05 14:22:09,023 [WARN] IP:2251 - DefaultDataRegion not found: check if there is a RefParameter without a condition.
+2025-06-05 14:22:09,369 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\cortex.tmp_save
+2025-06-05 14:22:09,515 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\cortex.tmp
+2025-06-05 14:22:09,588 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_it.c_save
+2025-06-05 14:22:09,832 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_it.c
+2025-06-05 14:22:09,839 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_it.h_save
+2025-06-05 14:22:09,901 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_it.h
+2025-06-05 14:22:09,960 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_hal_msp.c_save
+2025-06-05 14:22:10,131 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_hal_msp.c
+2025-06-05 14:22:10,139 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\system.tmp_save
+2025-06-05 14:22:10,213 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\system.tmp
+2025-06-05 14:22:10,247 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_hal_conf.h_save
+2025-06-05 14:22:10,379 [INFO] CodeEngine:335 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_hal_conf.h
+2025-06-05 14:22:10,417 [WARN] IPConfigManager:3034 - Warning: the RefConfig ConfigAttributesSEC is not available in your config.xml file
+2025-06-05 14:22:10,421 [ERROR] ApiDbMcu:464 - Can't load MEMORYMAP-STM32xx root dir null
+2025-06-05 14:22:10,422 [ERROR] ApiDbMcu:536 - Cannot parse MEMORYMAP_Config file : file do not exist
+2025-06-05 14:22:10,472 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\main.h_save
+2025-06-05 14:22:10,606 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\main.h
+2025-06-05 14:22:10,643 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\main.c_save
+2025-06-05 14:22:10,793 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\main.c
+2025-06-05 14:22:11,101 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 157mS.
+2025-06-05 14:22:11,103 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-06-05 14:22:11,172 [INFO] ConfigFileManager:1579 - The Die is : DIE474
+2025-06-05 14:22:12,715 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 1612mS.
+2025-06-05 14:22:12,716 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2025-06-05 14:22:12,719 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-06-05 14:22:29,544 [ERROR] ConfigurationRetriever:142 - IOException on connection: Read timed out
+2025-06-05 14:22:32,105 [ERROR] ConfigurationRetriever:142 - IOException on connection: Read timed out
+2025-06-05 14:22:35,667 [ERROR] ConfigurationRetriever:142 - IOException on connection: Read timed out
+2025-06-05 14:22:38,043 [ERROR] ConfigurationRetriever:142 - IOException on connection: Read timed out
+2025-06-05 14:23:19,052 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 990435240 Bytes (1073741824)
+2025-06-05 14:23:20,540 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 1016123304 Bytes (1073741824)
+2025-06-05 14:23:21,954 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 1017089528 Bytes (1073741824)
+2025-06-05 14:23:24,730 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: MEMORYMAP
+2025-06-05 14:23:24,730 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: PWR
+2025-06-05 14:23:24,730 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-06-05 14:23:24,730 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-06-05 14:23:24,730 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: BOOTPATH
+2025-06-05 14:23:24,730 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-06-05 14:23:24,730 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2025-06-05 14:23:24,731 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-06-05 14:23:24,731 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: FDCAN
+2025-06-05 14:23:24,731 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-06-05 14:23:24,736 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 14:23:24,736 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 14:23:24,736 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:23:24,736 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:23:24,736 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:23:24,736 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:23:24,736 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:23:24,736 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:23:24,736 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:23:24,736 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:23:24,736 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 14:23:24,736 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 14:23:24,736 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 14:23:24,736 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 14:23:24,736 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 14:23:24,825 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\license.tmp_save
+2025-06-05 14:23:25,039 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\license.tmp
+2025-06-05 14:23:25,128 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\gpio.tmp_save
+2025-06-05 14:23:25,286 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\gpio.tmp
+2025-06-05 14:23:25,433 [WARN] IPConfigManager:98 - WARNING: Missing Config File for MEMORYMAP ip!!
+2025-06-05 14:23:25,433 [WARN] IP:2251 - DefaultDataRegion not found: check if there is a RefParameter without a condition.
+2025-06-05 14:23:25,737 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\cortex.tmp_save
+2025-06-05 14:23:25,867 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\cortex.tmp
+2025-06-05 14:23:25,914 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_it.c_save
+2025-06-05 14:23:26,077 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_it.c
+2025-06-05 14:23:26,085 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_it.h_save
+2025-06-05 14:23:26,151 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_it.h
+2025-06-05 14:23:26,207 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_hal_msp.c_save
+2025-06-05 14:23:26,317 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_hal_msp.c
+2025-06-05 14:23:26,321 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\system.tmp_save
+2025-06-05 14:23:26,372 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\system.tmp
+2025-06-05 14:23:26,403 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_hal_conf.h_save
+2025-06-05 14:23:26,500 [INFO] CodeEngine:335 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_hal_conf.h
+2025-06-05 14:23:26,527 [WARN] IPConfigManager:3034 - Warning: the RefConfig ConfigAttributesSEC is not available in your config.xml file
+2025-06-05 14:23:26,530 [ERROR] ApiDbMcu:464 - Can't load MEMORYMAP-STM32xx root dir null
+2025-06-05 14:23:26,530 [ERROR] ApiDbMcu:536 - Cannot parse MEMORYMAP_Config file : file do not exist
+2025-06-05 14:23:26,556 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\main.h_save
+2025-06-05 14:23:26,621 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\main.h
+2025-06-05 14:23:26,637 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\main.c_save
+2025-06-05 14:23:26,752 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\main.c
+2025-06-05 14:23:27,040 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 130mS.
+2025-06-05 14:23:27,044 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-06-05 14:23:27,124 [INFO] ConfigFileManager:1579 - The Die is : DIE474
+2025-06-05 14:23:28,867 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 1824mS.
+2025-06-05 14:23:28,869 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2025-06-05 14:23:28,871 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-06-05 14:26:41,498 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 14:26:41,498 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 14:26:41,499 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:26:41,499 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:26:41,499 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:26:41,499 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:26:41,499 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:26:41,500 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:26:41,500 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:26:41,500 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:26:41,500 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 14:26:41,500 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 14:26:41,500 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 14:26:41,500 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 14:26:41,500 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 14:27:14,921 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 14:27:14,922 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 14:27:14,922 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:27:14,922 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:27:14,922 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:27:14,922 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:27:14,923 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:27:14,923 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:27:14,923 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:27:14,923 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:27:14,923 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 14:27:14,923 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 14:27:14,923 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 14:27:14,923 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 14:27:14,924 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 14:29:28,641 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 954855312 Bytes (1073741824)
+2025-06-05 14:29:30,474 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 996276112 Bytes (1073741824)
+2025-06-05 14:29:32,488 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 994265776 Bytes (1073741824)
+2025-06-05 14:29:35,559 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: MEMORYMAP
+2025-06-05 14:29:35,559 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: PWR
+2025-06-05 14:29:35,559 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-06-05 14:29:35,559 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-06-05 14:29:35,559 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: BOOTPATH
+2025-06-05 14:29:35,559 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-06-05 14:29:35,559 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2025-06-05 14:29:35,560 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-06-05 14:29:35,560 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: FDCAN
+2025-06-05 14:29:35,561 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-06-05 14:29:35,568 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 14:29:35,568 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 14:29:35,568 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:29:35,568 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:29:35,568 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:29:35,568 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:29:35,568 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:29:35,568 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:29:35,568 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:29:35,568 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 14:29:35,568 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 14:29:35,568 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 14:29:35,568 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 14:29:35,568 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 14:29:35,568 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 14:29:35,712 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\license.tmp_save
+2025-06-05 14:29:36,114 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\license.tmp
+2025-06-05 14:29:36,207 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\gpio.tmp_save
+2025-06-05 14:29:36,426 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\gpio.tmp
+2025-06-05 14:29:36,632 [WARN] IPConfigManager:98 - WARNING: Missing Config File for MEMORYMAP ip!!
+2025-06-05 14:29:36,633 [WARN] IP:2251 - DefaultDataRegion not found: check if there is a RefParameter without a condition.
+2025-06-05 14:29:36,999 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\cortex.tmp_save
+2025-06-05 14:29:37,224 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\cortex.tmp
+2025-06-05 14:29:37,314 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_it.c_save
+2025-06-05 14:29:37,739 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_it.c
+2025-06-05 14:29:37,747 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_it.h_save
+2025-06-05 14:29:37,830 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_it.h
+2025-06-05 14:29:37,874 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_hal_msp.c_save
+2025-06-05 14:29:38,094 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_hal_msp.c
+2025-06-05 14:29:38,102 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\system.tmp_save
+2025-06-05 14:29:38,173 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\system.tmp
+2025-06-05 14:29:38,216 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_hal_conf.h_save
+2025-06-05 14:29:38,388 [INFO] CodeEngine:335 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_hal_conf.h
+2025-06-05 14:29:38,422 [WARN] IPConfigManager:3034 - Warning: the RefConfig ConfigAttributesSEC is not available in your config.xml file
+2025-06-05 14:29:38,428 [ERROR] ApiDbMcu:464 - Can't load MEMORYMAP-STM32xx root dir null
+2025-06-05 14:29:38,428 [ERROR] ApiDbMcu:536 - Cannot parse MEMORYMAP_Config file : file do not exist
+2025-06-05 14:29:38,466 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\main.h_save
+2025-06-05 14:29:38,571 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\main.h
+2025-06-05 14:29:38,602 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\main.c_save
+2025-06-05 14:29:38,794 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\main.c
+2025-06-05 14:29:39,270 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 220mS.
+2025-06-05 14:29:39,276 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-06-05 14:29:39,388 [INFO] ConfigFileManager:1579 - The Die is : DIE474
+2025-06-05 14:29:40,926 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 1649mS.
+2025-06-05 14:29:40,927 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2025-06-05 14:29:40,930 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-06-05 14:37:59,431 [ERROR] ConfigurationRetriever:142 - IOException on connection: Read timed out
+2025-06-05 14:39:04,983 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 
+2025-06-05 15:32:05,254 [INFO] Activator:176 - 
 
 
-2025-06-04 09:52:01,441 [INFO] Activator:177 - !SESSION log4j initialized
-2025-06-04 09:52:07,088 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2025-06-05 15:32:05,257 [INFO] Activator:177 - !SESSION log4j initialized
+2025-06-05 15:32:12,343 [INFO] LogOutputStream:77 - [STDOUT_REDIRECT] 
+2025-06-05 15:32:12,688 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 15:32:12,691 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com
+2025-06-05 15:32:12,692 [ERROR] ConfigurationRetriever:142 - IOException on connection: sw-center.st.com

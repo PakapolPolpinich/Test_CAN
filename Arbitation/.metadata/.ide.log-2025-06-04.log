@@ -1,0 +1,936 @@
+2025-06-05 05:08:25,122 [INFO] WebApp:190 - Connection lost
+2025-06-05 05:08:28,052 [INFO] WebApp:187 - Connection restablished
+2025-06-05 05:08:30,332 [INFO] WebApp:190 - Connection lost
+2025-06-05 05:08:30,683 [INFO] WebApp:187 - Connection restablished
+2025-06-05 05:09:55,056 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:09:55,058 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:09:55,058 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:09:55,059 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:09:55,059 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:09:55,059 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:09:55,059 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:09:55,059 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:09:55,060 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:09:55,060 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:09:55,060 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:09:55,060 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:09:55,060 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:09:55,060 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:09:55,060 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,276 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,277 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,277 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,277 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,278 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,278 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,278 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,278 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,278 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,278 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,278 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,278 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,278 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,279 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,279 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,492 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,493 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,493 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,494 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,494 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,494 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,494 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,494 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,494 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,494 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,495 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,495 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,495 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,495 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,495 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,588 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,589 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,589 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,589 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,589 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,589 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,589 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,589 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,590 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,590 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,590 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,590 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,590 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,590 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:41,590 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,721 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,721 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,722 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,722 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,722 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,722 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,722 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,722 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,722 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,722 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,722 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,722 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,722 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,722 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,722 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,870 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,871 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,871 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,871 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,871 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,871 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,871 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,871 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,871 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,871 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,871 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,871 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,871 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,871 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,871 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,963 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,963 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,963 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,963 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,963 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,963 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,963 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,963 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,963 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,963 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,963 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,963 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,963 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,964 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:11:56,964 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,073 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,073 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,073 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,073 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,075 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,075 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,075 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,075 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,075 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,075 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,075 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,075 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,075 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,075 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,075 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,178 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,179 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,179 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,179 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,179 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,179 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,179 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,179 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,179 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,179 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,179 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,179 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,179 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,179 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,179 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,250 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,251 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,251 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,251 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,251 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,251 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,251 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,251 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,251 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,251 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,251 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,251 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,251 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,251 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:12:25,251 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,247 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,248 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,248 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,249 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,249 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,249 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,250 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,250 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,250 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,250 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,250 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,251 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,251 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,251 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,251 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,528 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,528 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,528 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,528 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,529 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,529 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,529 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,529 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,530 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,530 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,530 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,530 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,530 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,530 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,530 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,683 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,683 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,684 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,685 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,685 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,685 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,685 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,686 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,686 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,687 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,687 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,687 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,688 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,688 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:25,688 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,420 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,420 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,420 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,421 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,421 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,421 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,421 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,421 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,421 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,421 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,421 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,422 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,422 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,422 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,422 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,612 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,612 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,612 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,613 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,613 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,613 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,613 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,613 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,613 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,613 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,613 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,614 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,614 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,614 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,614 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,739 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,740 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,740 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,740 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,740 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,740 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,740 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,741 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,741 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,741 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,741 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,741 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,741 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,741 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:29,741 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,431 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,432 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,432 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,432 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,432 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,433 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,433 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,433 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,433 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,433 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,433 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,433 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,433 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,433 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,433 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,593 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,594 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,594 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,595 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,595 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,595 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,595 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,595 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,595 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,595 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,595 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,595 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,595 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,595 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,595 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,714 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,715 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,715 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,715 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,715 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,716 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,716 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,716 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,716 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,716 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,716 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,716 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,716 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,716 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:32,716 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,781 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,781 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,782 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,782 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,782 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,782 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,782 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,782 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,782 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,782 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,782 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,782 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,782 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,782 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,782 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,893 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,893 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,893 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,893 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,894 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,894 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,894 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,894 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,894 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,894 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,894 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,894 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,894 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,894 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,894 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,980 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,980 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,980 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,980 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,980 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,980 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,980 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,980 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,980 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,980 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,980 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,980 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,981 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,981 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:17:37,981 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,865 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,865 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,866 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,866 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,866 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,866 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,866 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,866 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,866 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,866 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,866 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,866 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,866 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,866 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,866 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,965 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,965 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,965 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,965 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,965 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,965 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,965 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,965 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,965 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,965 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,965 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,965 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,965 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,965 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:11,965 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:12,047 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:12,047 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:12,047 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:12,047 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:12,047 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:12,047 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:12,047 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:12,047 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:12,047 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:12,047 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:12,047 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:12,047 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:12,047 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:12,047 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:12,047 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,023 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,023 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,023 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,023 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,023 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,023 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,023 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,023 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,023 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,023 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,023 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,023 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,023 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,023 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,023 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,123 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,123 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,123 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,123 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,124 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,124 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,124 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,124 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,124 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,124 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,124 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,124 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,124 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,124 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,124 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,223 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,224 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,224 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,224 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,224 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,224 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,224 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,224 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,224 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,224 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,224 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,225 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,225 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,225 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:25,225 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:18:39,838 [INFO] Gpio:277 - dependency for GPIO [FDCAN1, RCC, USART3]
+2025-06-05 05:21:32,831 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:32,831 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:32,831 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:32,831 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:32,831 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:32,831 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:32,831 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:32,831 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:32,831 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:32,831 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:32,832 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:32,832 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:32,832 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:32,832 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:32,832 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:32,925 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:32,925 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:32,925 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:32,925 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:32,925 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:32,925 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:32,925 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:32,925 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:32,925 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:32,925 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:32,925 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:32,925 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:32,925 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:32,926 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:32,926 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:33,009 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:33,009 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:33,009 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:33,009 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:33,009 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:33,009 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:33,009 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:33,009 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:33,009 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:33,009 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:33,009 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:33,009 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:33,009 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:33,009 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:33,009 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:33,100 [INFO] Gpio:277 - dependency for GPIO [FDCAN1, RCC, USART3]
+2025-06-05 05:21:33,159 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-06-05 05:21:39,183 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,183 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,183 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,183 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,183 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,183 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,184 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,184 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,184 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,184 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,184 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,184 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,184 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,184 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,184 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,286 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,286 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,286 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,286 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,286 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,286 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,286 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,286 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,286 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,286 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,286 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,286 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,286 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,286 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,286 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,343 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,343 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,343 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,343 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,343 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,343 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,343 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,343 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,343 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,343 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,343 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,343 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,343 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,343 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,343 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:21:39,413 [INFO] Gpio:277 - dependency for GPIO [FDCAN1, RCC, USART3]
+2025-06-05 05:21:39,452 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-06-05 05:23:40,398 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,398 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,398 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,398 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,398 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,398 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,398 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,398 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,398 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,398 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,398 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,398 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,398 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,398 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,398 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,495 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,495 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,495 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,495 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,495 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,495 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,495 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,495 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,495 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,495 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,495 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,495 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,495 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,495 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,495 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,567 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,567 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,567 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,567 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,568 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,568 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,568 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,568 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,568 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,568 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,568 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,568 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,568 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,568 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,568 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:23:40,649 [INFO] Gpio:277 - dependency for GPIO [FDCAN1, RCC, USART3]
+2025-06-05 05:23:40,683 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-06-05 05:24:53,998 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:53,998 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:53,998 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:53,999 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:53,999 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:53,999 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:53,999 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:53,999 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:53,999 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:53,999 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:53,999 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:53,999 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:53,999 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:53,999 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:53,999 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,089 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,090 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,090 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,090 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,090 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,090 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,090 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,090 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,090 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,090 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,090 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,090 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,090 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,090 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,090 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,167 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,167 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,167 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,167 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,167 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,167 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,167 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,167 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,167 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,167 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,167 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,167 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,167 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,167 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,167 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:24:54,253 [INFO] Gpio:277 - dependency for GPIO [FDCAN1, RCC, USART3]
+2025-06-05 05:24:54,308 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-06-05 05:26:59,502 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:26:59,503 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:26:59,503 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:26:59,503 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:26:59,503 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:26:59,503 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:26:59,503 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:26:59,503 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:26:59,503 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:26:59,503 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:26:59,503 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:26:59,503 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:26:59,503 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:26:59,503 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:26:59,503 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:26:59,629 [INFO] Gpio:277 - dependency for GPIO [FDCAN1, RCC, USART3]
+2025-06-05 05:26:59,678 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-06-05 05:27:05,945 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:05,945 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:05,946 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:05,946 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:05,946 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:05,946 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:05,946 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:05,946 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:05,946 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:05,946 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:05,946 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:05,946 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:05,946 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:05,946 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:05,946 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:06,050 [INFO] Gpio:277 - dependency for GPIO [FDCAN1, RCC, USART3]
+2025-06-05 05:27:06,098 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-06-05 05:27:44,526 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:44,526 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:44,527 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:44,527 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:44,527 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:44,529 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:44,529 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:44,529 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:44,530 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:44,530 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:44,530 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:44,530 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:44,530 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:44,531 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:44,531 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:44,852 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:44,853 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:44,853 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:44,853 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:44,854 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:44,854 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:44,854 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:44,854 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:44,854 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:44,854 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:44,854 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:44,855 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:44,855 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:44,855 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:44,855 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:45,017 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:45,018 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:45,018 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:45,018 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:45,019 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:45,019 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:45,019 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:45,021 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:45,021 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:45,021 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:45,022 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:45,022 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:45,022 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:45,022 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:45,022 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:27:45,266 [INFO] Gpio:277 - dependency for GPIO [FDCAN1, RCC, USART3]
+2025-06-05 05:27:45,474 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-06-05 05:28:14,820 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:14,821 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:14,821 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:14,821 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:14,821 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:14,821 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:14,821 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:14,821 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:14,821 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:14,821 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:14,821 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:14,821 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:14,821 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:14,821 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:14,821 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:14,983 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:14,983 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:14,984 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:14,984 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:14,984 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:14,984 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:14,984 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:14,984 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:14,984 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:14,985 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:14,985 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:14,985 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:14,985 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:14,985 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:14,985 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:15,115 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:15,115 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:15,115 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:15,115 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:15,115 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:15,116 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:15,116 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:15,117 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:15,117 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:15,117 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:15,117 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:15,117 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:15,117 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:15,117 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:15,117 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:15,292 [INFO] Gpio:277 - dependency for GPIO [FDCAN1, RCC, USART3]
+2025-06-05 05:28:15,422 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2025-06-05 05:28:31,168 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 997702328 Bytes (1073741824)
+2025-06-05 05:28:36,751 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 974997016 Bytes (1073741824)
+2025-06-05 05:28:39,848 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 956314904 Bytes (1073741824)
+2025-06-05 05:28:42,139 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: MEMORYMAP
+2025-06-05 05:28:42,140 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: PWR
+2025-06-05 05:28:42,140 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-06-05 05:28:42,140 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-06-05 05:28:42,140 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: BOOTPATH
+2025-06-05 05:28:42,140 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-06-05 05:28:42,140 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2025-06-05 05:28:42,140 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPDMA
+2025-06-05 05:28:42,141 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-06-05 05:28:42,141 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: FDCAN
+2025-06-05 05:28:42,143 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-06-05 05:28:42,149 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:42,149 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:42,149 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:42,149 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:42,149 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:42,149 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:42,149 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:42,149 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:42,149 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:42,150 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:42,150 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:42,150 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:42,150 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:42,150 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:42,150 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:42,387 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\license.tmp_save
+2025-06-05 05:28:42,913 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\license.tmp
+2025-06-05 05:28:43,224 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\gpio.tmp_save
+2025-06-05 05:28:43,572 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\gpio.tmp
+2025-06-05 05:28:44,401 [WARN] IPConfigManager:98 - WARNING: Missing Config File for MEMORYMAP ip!!
+2025-06-05 05:28:44,403 [WARN] IP:2251 - DefaultDataRegion not found: check if there is a RefParameter without a condition.
+2025-06-05 05:28:45,047 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\cortex.tmp_save
+2025-06-05 05:28:45,207 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\cortex.tmp
+2025-06-05 05:28:45,291 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_it.c_save
+2025-06-05 05:28:45,757 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_it.c
+2025-06-05 05:28:45,838 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_it.h_save
+2025-06-05 05:28:46,072 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_it.h
+2025-06-05 05:28:46,204 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_hal_msp.c_save
+2025-06-05 05:28:46,622 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_hal_msp.c
+2025-06-05 05:28:46,663 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\system.tmp_save
+2025-06-05 05:28:46,798 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\system.tmp
+2025-06-05 05:28:46,889 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_hal_conf.h_save
+2025-06-05 05:28:47,091 [INFO] CodeEngine:335 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_hal_conf.h
+2025-06-05 05:28:47,148 [WARN] IPConfigManager:3034 - Warning: the RefConfig ConfigAttributesSEC is not available in your config.xml file
+2025-06-05 05:28:47,162 [INFO] ApiDbMcu:508 - Load IP Config File for CORTEX_M33_NS
+2025-06-05 05:28:47,168 [INFO] ApiDbMcu:508 - Load IP Config File for FDCAN1
+2025-06-05 05:28:47,187 [INFO] ApiDbMcu:508 - Load IP Config File for GPDMA1
+2025-06-05 05:28:47,188 [ERROR] ApiDbMcu:464 - Can't load MEMORYMAP-STM32xx root dir null
+2025-06-05 05:28:47,189 [ERROR] ApiDbMcu:536 - Cannot parse MEMORYMAP_Config file : file do not exist
+2025-06-05 05:28:47,203 [INFO] ApiDbMcu:508 - Load IP Config File for USART3
+2025-06-05 05:28:47,211 [INFO] ApiDbMcu:508 - Load IP Config File for RCC
+2025-06-05 05:28:47,281 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\main.h_save
+2025-06-05 05:28:47,439 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\main.h
+2025-06-05 05:28:47,486 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\main.c_save
+2025-06-05 05:28:47,647 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\main.c
+2025-06-05 05:28:48,575 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 579mS.
+2025-06-05 05:28:48,582 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-06-05 05:28:48,703 [INFO] ConfigFileManager:1579 - The Die is : DIE474
+2025-06-05 05:28:48,721 [INFO] ApiDbMcu:508 - Load IP Config File for FILEX
+2025-06-05 05:28:48,744 [INFO] ApiDbMcu:508 - Load IP Config File for LEVELX
+2025-06-05 05:28:48,780 [INFO] ApiDbMcu:508 - Load IP Config File for NETXDUO
+2025-06-05 05:28:48,802 [INFO] ApiDbMcu:508 - Load IP Config File for THREADX
+2025-06-05 05:28:48,833 [INFO] ApiDbMcu:508 - Load IP Config File for USBX
+2025-06-05 05:28:52,728 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 4147mS.
+2025-06-05 05:28:52,730 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2025-06-05 05:28:52,734 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-06-05 05:30:30,228 [WARN] MainPanel:289 - <html><b><center>Warning: This peripheral has no parameters to be configured<br></b></html>
+2025-06-05 05:30:30,229 [ERROR] MainPanel:599 - java.lang.IndexOutOfBoundsException: Index: 0, Tab count: 0
+2025-06-05 05:30:33,937 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 991716408 Bytes (1073741824)
+2025-06-05 05:30:35,063 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 1017930808 Bytes (1073741824)
+2025-06-05 05:30:36,718 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 999819168 Bytes (1073741824)
+2025-06-05 05:30:38,420 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: MEMORYMAP
+2025-06-05 05:30:38,420 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: PWR
+2025-06-05 05:30:38,420 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-06-05 05:30:38,420 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-06-05 05:30:38,421 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: BOOTPATH
+2025-06-05 05:30:38,421 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-06-05 05:30:38,421 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2025-06-05 05:30:38,421 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-06-05 05:30:38,421 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: FDCAN
+2025-06-05 05:30:38,423 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-06-05 05:30:38,428 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:30:38,429 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:30:38,429 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:30:38,429 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:30:38,429 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:30:38,429 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:30:38,429 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:30:38,429 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:30:38,429 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:30:38,429 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:30:38,429 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:30:38,429 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:30:38,429 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:30:38,429 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:30:38,429 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:30:38,548 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\license.tmp_save
+2025-06-05 05:30:39,001 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\license.tmp
+2025-06-05 05:30:39,153 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\gpio.tmp_save
+2025-06-05 05:30:39,495 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\gpio.tmp
+2025-06-05 05:30:39,757 [WARN] IPConfigManager:98 - WARNING: Missing Config File for MEMORYMAP ip!!
+2025-06-05 05:30:39,758 [WARN] IP:2251 - DefaultDataRegion not found: check if there is a RefParameter without a condition.
+2025-06-05 05:30:40,311 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\cortex.tmp_save
+2025-06-05 05:30:40,520 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\cortex.tmp
+2025-06-05 05:30:40,598 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_it.c_save
+2025-06-05 05:30:41,036 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_it.c
+2025-06-05 05:30:41,051 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_it.h_save
+2025-06-05 05:30:41,194 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_it.h
+2025-06-05 05:30:41,257 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_hal_msp.c_save
+2025-06-05 05:30:41,515 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_hal_msp.c
+2025-06-05 05:30:41,525 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\system.tmp_save
+2025-06-05 05:30:41,646 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\system.tmp
+2025-06-05 05:30:41,691 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_hal_conf.h_save
+2025-06-05 05:30:41,851 [INFO] CodeEngine:335 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_hal_conf.h
+2025-06-05 05:30:41,898 [WARN] IPConfigManager:3034 - Warning: the RefConfig ConfigAttributesSEC is not available in your config.xml file
+2025-06-05 05:30:41,905 [ERROR] ApiDbMcu:464 - Can't load MEMORYMAP-STM32xx root dir null
+2025-06-05 05:30:41,906 [ERROR] ApiDbMcu:536 - Cannot parse MEMORYMAP_Config file : file do not exist
+2025-06-05 05:30:41,950 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\main.h_save
+2025-06-05 05:30:42,139 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\main.h
+2025-06-05 05:30:42,176 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\main.c_save
+2025-06-05 05:30:42,380 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\main.c
+2025-06-05 05:30:42,823 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 221mS.
+2025-06-05 05:30:42,829 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-06-05 05:30:42,972 [INFO] ConfigFileManager:1579 - The Die is : DIE474
+2025-06-05 05:30:45,147 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 2318mS.
+2025-06-05 05:30:45,149 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2025-06-05 05:30:45,152 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-06-05 05:36:49,455 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 979594792 Bytes (1073741824)
+2025-06-05 05:36:50,651 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 949262448 Bytes (1073741824)
+2025-06-05 05:36:52,891 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 990113984 Bytes (1073741824)
+2025-06-05 05:36:54,644 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: MEMORYMAP
+2025-06-05 05:36:54,645 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: PWR
+2025-06-05 05:36:54,646 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: SYS
+2025-06-05 05:36:54,646 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: RCC
+2025-06-05 05:36:54,646 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: BOOTPATH
+2025-06-05 05:36:54,647 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: NVIC
+2025-06-05 05:36:54,647 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: USART
+2025-06-05 05:36:54,647 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: GPIO
+2025-06-05 05:36:54,647 [INFO] BlockDiagram:2766 - set Specific Code input for plugin: FDCAN
+2025-06-05 05:36:54,649 [INFO] CodeGenerator:896 - code generatio: config db path: C:\ST\STM32CubeIDE_1.17.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.13.0.202411220809\\db\
+2025-06-05 05:36:54,658 [WARN] IP:2251 - pwrPrivilegeSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:36:54,659 [WARN] IP:2251 - pwrPrivilegeNSecure not found: check if there is a RefParameter without a condition.
+2025-06-05 05:36:54,659 [WARN] IP:2251 - PWR_WKUP1 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:36:54,659 [WARN] IP:2251 - PWR_WKUP2 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:36:54,660 [WARN] IP:2251 - PWR_WKUP3 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:36:54,660 [WARN] IP:2251 - PWR_WKUP4 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:36:54,660 [WARN] IP:2251 - PWR_WKUP5 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:36:54,660 [WARN] IP:2251 - PWR_WKUP6 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:36:54,660 [WARN] IP:2251 - PWR_WKUP7 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:36:54,660 [WARN] IP:2251 - PWR_WKUP8 not found: check if there is a RefParameter without a condition.
+2025-06-05 05:36:54,660 [WARN] IP:2251 - PWR_LPM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:36:54,660 [WARN] IP:2251 - PWR_VB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:36:54,660 [WARN] IP:2251 - PWR_IO not found: check if there is a RefParameter without a condition.
+2025-06-05 05:36:54,661 [WARN] IP:2251 - PWR_SCM not found: check if there is a RefParameter without a condition.
+2025-06-05 05:36:54,661 [WARN] IP:2251 - PWR_VUSB not found: check if there is a RefParameter without a condition.
+2025-06-05 05:36:54,806 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\license.tmp_save
+2025-06-05 05:36:55,353 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\license.tmp
+2025-06-05 05:36:55,509 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\gpio.tmp_save
+2025-06-05 05:36:55,875 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\gpio.tmp
+2025-06-05 05:36:56,119 [WARN] IPConfigManager:98 - WARNING: Missing Config File for MEMORYMAP ip!!
+2025-06-05 05:36:56,121 [WARN] IP:2251 - DefaultDataRegion not found: check if there is a RefParameter without a condition.
+2025-06-05 05:36:56,603 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\cortex.tmp_save
+2025-06-05 05:36:56,821 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\cortex.tmp
+2025-06-05 05:36:56,907 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_it.c_save
+2025-06-05 05:36:57,224 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_it.c
+2025-06-05 05:36:57,239 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_it.h_save
+2025-06-05 05:36:57,342 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_it.h
+2025-06-05 05:36:57,412 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_hal_msp.c_save
+2025-06-05 05:36:57,617 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\stm32h5xx_hal_msp.c
+2025-06-05 05:36:57,627 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\system.tmp_save
+2025-06-05 05:36:57,766 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\MXTmpFiles\system.tmp
+2025-06-05 05:36:57,830 [INFO] CodeEngine:311 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_hal_conf.h_save
+2025-06-05 05:36:58,125 [INFO] CodeEngine:335 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\stm32h5xx_hal_conf.h
+2025-06-05 05:36:58,184 [WARN] IPConfigManager:3034 - Warning: the RefConfig ConfigAttributesSEC is not available in your config.xml file
+2025-06-05 05:36:58,191 [ERROR] ApiDbMcu:464 - Can't load MEMORYMAP-STM32xx root dir null
+2025-06-05 05:36:58,191 [ERROR] ApiDbMcu:536 - Cannot parse MEMORYMAP_Config file : file do not exist
+2025-06-05 05:36:58,254 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\main.h_save
+2025-06-05 05:36:58,612 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Inc\main.h
+2025-06-05 05:36:58,663 [INFO] CodeEngine:255 - oldGeneratedFile, C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\main.c_save
+2025-06-05 05:36:58,891 [INFO] CodeEngine:279 - Generated code: C:\Users\Admin\Documents\INTERN\STM32\ProjectCAN\Arbitation\ArbitraionV1\Core\Src\main.c
+2025-06-05 05:36:59,439 [INFO] ProjectBuilder:3289 - Time for Copy HAL[1] : 231mS.
+2025-06-05 05:36:59,444 [INFO] ProjectBuilder:4876 - Project Generator version: 4.5.0-RC5
+2025-06-05 05:36:59,571 [INFO] ConfigFileManager:1579 - The Die is : DIE474
+2025-06-05 05:37:01,681 [INFO] ProjectBuilder:5154 - Time for Generating toolchain IDE Files: 2236mS.
+2025-06-05 05:37:01,683 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 1mS.
+2025-06-05 05:37:01,687 [INFO] ProjectBuilder:3146 - Time for Copy CMSIS : 0mS.
+2025-06-05 06:57:22,909 [INFO] WebApp:190 - Connection lost
+2025-06-05 08:20:43,353 [INFO] WebApp:187 - Connection restablished
+2025-06-05 08:20:46,324 [INFO] WebApp:190 - Connection lost
+2025-06-05 08:20:46,609 [INFO] WebApp:187 - Connection restablished
+2025-06-05 08:31:06,093 [INFO] WebApp:190 - Connection lost

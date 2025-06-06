@@ -1,0 +1,13 @@
+../Core/Src/main.c:106:5:main	16	static
+../Core/Src/main.c:208:6:SystemClock_Config	120	static
+../Core/Src/main.c:265:13:MX_FDCAN1_Init	8	static
+../Core/Src/main.c:317:13:MX_USART3_UART_Init	8	static
+../Core/Src/main.c:365:13:MX_GPIO_Init	48	static
+../Core/Src/main.c:449:6:HAL_GPIO_EXTI_Falling_Callback	16	static
+../Core/Src/main.c:470:6:BCD_Display	16	static
+../Core/Src/main.c:480:6:Pri_ID	4	static
+../Core/Src/main.c:486:6:Pass_Arb	4	static
+../Core/Src/main.c:501:6:Std_Ext	4	static
+../Core/Src/main.c:516:6:TX_Send_CAN	8	static
+../Core/Src/main.c:534:6:HAL_FDCAN_RxFifo0Callback	16	static
+../Core/Src/main.c:559:6:Error_Handler	4	static,ignoring_inline_asm
