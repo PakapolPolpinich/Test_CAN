@@ -40,15 +40,6 @@ CAN_SET CAN_Payload;
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
 #define NODE_B
-
-
-#define ID_VS_ID		1U
-#define STD_VS_EXD		2U
-#define ID_Pass_ARB		3U
-#define CHANGE_ADD		4U
-#define START_SEND_CAN	5U
-
-
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -77,25 +68,44 @@ void TX_Send_CAN();
 void Pri_ID();
 void Std_Ext();
 void Pass_Arb();
+void Close_led();
+void Turn_LED(uint16_t LED);
+void Change_ID();
+void Check_flag();
+void Data_Remote();
 /* USER CODE END PFP */
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
-volatile uint8_t mode = ID_VS_ID;
-volatile uint8_t flag = 1;
-uint8_t prev_mode = ID_VS_ID;
+typedef enum {
+    ID_VS_ID = 1U,
+    STD_VS_EXD,
+    ID_Pass_ARB,
+	DATE_REMOTE,
+    CHANGE_ADD,
+    START_SEND_CAN
+} State;
 
-uint8_t Counter = 0;
+volatile State mode 	= ID_VS_ID;
+State prev_mode 		= ID_VS_ID;
+
+volatile uint8_t flag 	= 1U;
+uint8_t ID_Position 	= 0U;
+volatile uint8_t sw_mode = 0U;
+
 
 #ifdef NODE_A
-	const uint16_t pri_id_address[3] = {0x011,0x7E0,0x7E0};
-	const uint16_t std_ext_address[3] = {0x000,0x001,0x0A0};
+	const uint16_t pri_id_address[3]  = {0x7E0U,0x7A0U,0x119U};
+	const uint16_t std_ext_address[3] = {0x7E0U,0x2A5U,0x001U};
 #endif
 
 #ifdef NODE_B
-	const uint16_t pri_id_address[3] = {0x012,0x7E4,0x45A};
-	const uint32_t std_ext_address[3] = {0x0000000,0x0000A0A,0x00040000};
+	const uint16_t pri_id_address[3]  = {0x7E1U,0x1A2U,0x149U};
+	const uint32_t std_ext_address[3] = {0x1F800000U,0x10A5462U,0x00040000U};
 #endif
+
+#define MAX_ID_POSITION	(sizeof(pri_id_address) / sizeof(pri_id_address[0]))
+#define RESET_ID_POSITION (0U)
 
 /* USER CODE END 0 */
 
@@ -131,10 +141,8 @@ int main(void)
   MX_FDCAN1_Init();
   MX_USART3_UART_Init();
   /* USER CODE BEGIN 2 */
-  BCD_Display(Counter+1);
-  HAL_GPIO_WritePin(GPIOA, BLUE_LED_Pin|RED_LED_Pin|YELLOW_LED_Pin,RESET);
-  HAL_GPIO_WritePin(GPIOC, GREEN_LED_Pin, GPIO_PIN_RESET);
-
+  BCD_Display(ID_Position+1);
+  Close_led();
 
   for (uint8_t i = 0; i < 8 ;i++){
 	  CAN_Payload.dataTx[i] = i;
@@ -152,50 +160,28 @@ int main(void)
 		switch (mode)
     		{
     		case ID_VS_ID:
-    			HAL_GPIO_WritePin(GPIOA, BLUE_LED_Pin|RED_LED_Pin|YELLOW_LED_Pin,RESET);
-    			HAL_GPIO_WritePin(GPIOA,BLUE_LED_Pin,SET);
-    			HAL_GPIO_WritePin(GPIOC, GREEN_LED_Pin, RESET);
+    			Turn_LED(BLUE_LED_Pin);
     			Pri_ID();
-    			prev_mode = mode;
     			break;
     		case STD_VS_EXD:
-    			HAL_GPIO_WritePin(GPIOA, BLUE_LED_Pin|RED_LED_Pin|YELLOW_LED_Pin,RESET);
-    			HAL_GPIO_WritePin(GPIOA,RED_LED_Pin,SET);
-    			HAL_GPIO_WritePin(GPIOC, GREEN_LED_Pin, RESET);
+    			Turn_LED(RED_LED_Pin);
     			Std_Ext();
-    			prev_mode = mode;
     			break;
     		case ID_Pass_ARB:
-    			HAL_GPIO_WritePin(GPIOA, BLUE_LED_Pin|RED_LED_Pin|YELLOW_LED_Pin,RESET);
-    			HAL_GPIO_WritePin(GPIOA,YELLOW_LED_Pin,SET);
-    			HAL_GPIO_WritePin(GPIOC, GREEN_LED_Pin, RESET);
+    			Turn_LED(YELLOW_LED_Pin);
     			Pass_Arb();
-    			prev_mode = mode;
-    			Counter = 0;
-    			BCD_Display(1);
+    			break;
+    		case DATE_REMOTE:
+    			Turn_LED(GREEN_LED_Pin);
+    			Data_Remote();
     			break;
     		case CHANGE_ADD:
-    			HAL_GPIO_WritePin(GPIOA, BLUE_LED_Pin|RED_LED_Pin|YELLOW_LED_Pin,RESET);
-    			HAL_GPIO_WritePin(GPIOC, GREEN_LED_Pin, GPIO_PIN_SET);
-    			if(prev_mode == ID_Pass_ARB ){
-    				Counter = 0;
-    			}else{
-    				Counter++;
-    				if (Counter >= (sizeof(pri_id_address) / sizeof(pri_id_address[0]))) {
-    					Counter = 0;
-    				}
-    			}
-    			BCD_Display(Counter+1);
+    			Change_ID();
     			break;
     		default:
     			break;
     		}
-		if(mode == CHANGE_ADD){
-			flag = 1;
-			mode = prev_mode;
-		}else {
-			flag = 0;
-		}
+		Check_flag();
 	}
   }
   /* USER CODE END 3 */
@@ -279,7 +265,7 @@ static void MX_FDCAN1_Init(void)
   hfdcan1.Init.AutoRetransmission = DISABLE;
   hfdcan1.Init.TransmitPause = DISABLE;
   hfdcan1.Init.ProtocolException = DISABLE;
-  hfdcan1.Init.NominalPrescaler = 125;
+  hfdcan1.Init.NominalPrescaler = 25;
   hfdcan1.Init.NominalSyncJumpWidth = 1;
   hfdcan1.Init.NominalTimeSeg1 = 13;
   hfdcan1.Init.NominalTimeSeg2 = 2;
@@ -448,7 +434,7 @@ static void MX_GPIO_Init(void)
 /* USER CODE BEGIN 4 */
 void HAL_GPIO_EXTI_Falling_Callback(uint16_t GPIO_Pin){
 
-	if (GPIO_Pin == EXTI8_BUTTON1_Pin) {
+		if (GPIO_Pin == EXTI8_BUTTON1_Pin) {
 			mode = ID_VS_ID;
 		}
 		if (GPIO_Pin == EXTI3_BUTTON2_Pin) {
@@ -458,33 +444,95 @@ void HAL_GPIO_EXTI_Falling_Callback(uint16_t GPIO_Pin){
 			mode = CHANGE_ADD;
 		}
 		if (GPIO_Pin == B1_BLUE_USER_BUTTON_Pin) {
-			mode = ID_Pass_ARB;
+//			if(sw_mode == 0){
+//				mode = ID_Pass_ARB;
+//			}else{
+//				mode = DATE_REMOTE;
+//			}
+//			sw_mode ^= 1;
+			mode = DATE_REMOTE;
 		}
 		if (GPIO_Pin == GPIO_PIN_15) {
 			TX_Send_CAN();
 		}
-	flag = 1;
+
+		if (GPIO_Pin == EXTI5_BUTTON3_Pin){
+			mode = ID_Pass_ARB;
+		}
+		flag = 1;
 }
+//void EXTI3_IRQHandler(void)
+//{
+//    if (EXTI->FPR1 & (1U << 3U))  // Check pending
+//    {
+//        EXTI->FPR1 = (1U << 3U);  // Clear interrupt flag
+//        mode = STD_VS_EXD;
+//        flag = 1;
+//    }
+//}
+//
+//void EXTI4_IRQHandler(void)
+//{
+//    if (EXTI->FPR1 & (1U << 4U))
+//    {
+//        EXTI->FPR1 = (1U << 4U);
+//        mode = CHANGE_ADD;
+//        flag = 1;
+//    }
+//}
+//
+//void EXTI5_IRQHandler(void)
+//{
+//    if (EXTI->FPR1 & (1U << 5U))
+//    {
+//        EXTI->FPR1 = (1U << 5U);
+//        mode = CHANGE_ADD;
+//        flag = 1;
+//    }
+//}
+//
+//void EXTI8_IRQHandler(void)
+//{
+//    if (EXTI->FPR1 & (1U << 8U))
+//    {
+//        EXTI->FPR1 = (1U << 8U);
+//        mode = ID_VS_ID;
+//        flag = 1;
+//    }
+//}
+//
+//void EXTI13_IRQHandler(void)
+//{
+//    if (EXTI->FPR1 & (1U << 13U))
+//    {
+//        EXTI->FPR1 = (1U << 13U);
+//        mode = ID_Pass_ARB;
+//        flag = 1;
+//    }
+//}
+
 
 
 void BCD_Display(uint8_t bcd_value)
 {
-    bcd_value &= 0x0F;
+    bcd_value &= 0x0F;/*set bit*/
 
-    HAL_GPIO_WritePin(BCD_BIT0_GPIO_Port, BCD_BIT0_Pin, (bcd_value & (1 << 0)) ? GPIO_PIN_SET : GPIO_PIN_RESET); // 2⁰
-    HAL_GPIO_WritePin(BCD_BIT1_GPIO_Port, BCD_BIT1_Pin, (bcd_value & (1 << 1)) ? GPIO_PIN_SET : GPIO_PIN_RESET); // 2¹
-    HAL_GPIO_WritePin(BCD_BIT2_GPIO_Port, BCD_BIT2_Pin, (bcd_value & (1 << 2)) ? GPIO_PIN_SET : GPIO_PIN_RESET); // 2²
-    HAL_GPIO_WritePin(BCD_BIT3_GPIO_Port, BCD_BIT3_Pin, (bcd_value & (1 << 3)) ? GPIO_PIN_SET : GPIO_PIN_RESET); // 2³
+    HAL_GPIO_WritePin(BCD_BIT0_GPIO_Port, BCD_BIT0_Pin, (bcd_value & (1 << 0)) ? GPIO_PIN_SET : GPIO_PIN_RESET);
+    HAL_GPIO_WritePin(BCD_BIT1_GPIO_Port, BCD_BIT1_Pin, (bcd_value & (1 << 1)) ? GPIO_PIN_SET : GPIO_PIN_RESET);
+    HAL_GPIO_WritePin(BCD_BIT2_GPIO_Port, BCD_BIT2_Pin, (bcd_value & (1 << 2)) ? GPIO_PIN_SET : GPIO_PIN_RESET);
+    HAL_GPIO_WritePin(BCD_BIT3_GPIO_Port, BCD_BIT3_Pin, (bcd_value & (1 << 3)) ? GPIO_PIN_SET : GPIO_PIN_RESET);
 }
 
 void Pri_ID(){
-	 CAN_Payload.msgID = pri_id_address[Counter];
+	 CAN_Payload.msgID = pri_id_address[ID_Position];
 	 CAN_Payload.TxHeader.IdType = FDCAN_STANDARD_ID;
 	 CAN_Payload.TxHeader.DataLength = FDCAN_DLC_BYTES_8;
+	 CAN_Payload.TxHeader.TxFrameType = FDCAN_DATA_FRAME;
+	 prev_mode = mode;
 }
 
 void Pass_Arb(){
-	CAN_Payload.msgID = 0x5A3;
+	CAN_Payload.msgID = 0x7E2;
 	CAN_Payload.TxHeader.IdType = FDCAN_STANDARD_ID;
 	CAN_Payload.TxHeader.DataLength = FDCAN_DLC_BYTES_8;
 
@@ -495,8 +543,13 @@ void Pass_Arb(){
 #ifdef NODE_B
 	CAN_Payload.TxHeader.DataLength = FDCAN_DLC_BYTES_2;
 #endif
+	CAN_Payload.TxHeader.TxFrameType = FDCAN_DATA_FRAME;
+	prev_mode = mode;
+	ID_Position = 0;
+	BCD_Display(1);
 
 }
+
 
 void Std_Ext(){
 
@@ -507,17 +560,33 @@ void Std_Ext(){
 #ifdef NODE_B
 	CAN_Payload.TxHeader.IdType = FDCAN_EXTENDED_ID;
 #endif
-	CAN_Payload.msgID = std_ext_address[Counter];
+	CAN_Payload.msgID = std_ext_address[ID_Position];
 
 	CAN_Payload.TxHeader.DataLength = FDCAN_DLC_BYTES_8;
+	CAN_Payload.TxHeader.TxFrameType = FDCAN_DATA_FRAME;
+
+	prev_mode = mode;
+}
+
+void Data_Remote(){
+	CAN_Payload.msgID = 0x7EA;
+	CAN_Payload.TxHeader.DataLength = FDCAN_DLC_BYTES_8;
+
+#ifdef NODE_A
+	CAN_Payload.TxHeader.TxFrameType = FDCAN_DATA_FRAME;
+#endif
+
+#ifdef NODE_B
+	CAN_Payload.TxHeader.TxFrameType = FDCAN_REMOTE_FRAME;
+#endif
+	ID_Position = 0;
+	BCD_Display(1);
 }
 
 
 void TX_Send_CAN(){
-
   /* ----- Prepare CAN data --------------------------------------- */
   CAN_Payload.TxHeader.Identifier = CAN_Payload.msgID; //CAN_Payload.msgID
-  CAN_Payload.TxHeader.TxFrameType = FDCAN_DATA_FRAME;        // 8-byte payloaD
   CAN_Payload.TxHeader.ErrorStateIndicator = FDCAN_ESI_ACTIVE;
   CAN_Payload.TxHeader.BitRateSwitch = FDCAN_BRS_OFF;         // Disable BRS
   CAN_Payload.TxHeader.FDFormat = FDCAN_CLASSIC_CAN;          // Use Classical CAN frame
@@ -529,6 +598,42 @@ void TX_Send_CAN(){
 
   }
 
+}
+
+void Close_led(){
+	HAL_GPIO_WritePin(GPIOA, BLUE_LED_Pin|RED_LED_Pin|YELLOW_LED_Pin,RESET);
+	HAL_GPIO_WritePin(GPIOC, GREEN_LED_Pin, RESET);
+}
+
+void Turn_LED(uint16_t LED){
+	Close_led();
+	if(LED == GREEN_LED_Pin){
+		HAL_GPIO_WritePin(GPIOC,LED,SET);
+	}else{
+		HAL_GPIO_WritePin(GPIOA,LED,SET);
+	}
+
+}
+
+void Change_ID(){
+	if(prev_mode == ID_Pass_ARB ){
+	    ID_Position = RESET_ID_POSITION;
+	}else{
+	    ID_Position++;
+	    if (ID_Position >= MAX_ID_POSITION) {
+	    	ID_Position = RESET_ID_POSITION;
+	    }
+	}
+	BCD_Display(ID_Position+1);
+}
+
+void Check_flag(){
+	if(mode == CHANGE_ADD){
+		flag = 1;
+		mode = prev_mode;
+	}else {
+		flag = 0;
+	}
 }
 
 void HAL_FDCAN_RxFifo0Callback(FDCAN_HandleTypeDef *hfdcan, uint32_t RxFifo0ITs)
