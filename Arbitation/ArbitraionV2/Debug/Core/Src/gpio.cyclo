@@ -1,0 +1,4 @@
+../Core/Src/gpio.c:4:6:MX_GPIO_Init	1
+../Core/Src/gpio.c:102:6:BCD_Display	1
+../Core/Src/gpio.c:112:6:Close_led	1
+../Core/Src/gpio.c:117:6:Turn_LED	2
